@@ -1,0 +1,56 @@
+// Multiple choice: 4
+// T/F: 4
+// TOTAL: 8
+
+// GUID: 0331de22-e093-4999-87df-f09ce9a5afac
+::Reflection::
+Reflection {
+=Allows runtime discovery and usage of class members.
+~Requires you to include jar files
+~Is approximately 20% faster than traditional coding means
+~All of the options
+}
+
+// GUID: 0b165dc6-89b4-44a5-aeaa-c2c4745a26f8
+::Benefits of Reflections::
+Which of these is NOT a potential use case for using the Reflection API in Java? {
+~Extensibility features
+~IDEs and Frameworks
+~Debuggers and Test Tools
+=Performance optimization
+}
+
+// GUID: c5ea7732-120e-4c4e-b5d3-396cc1991394
+::Retrieving Classes::
+Which is the correct way to retrieve references to classes in Java? {
+~Object.getClass() method
+~obj.class
+~Class.forName() method
+=All of the above
+}
+
+// GUID: 77211688-ec15-4f68-bb17-125fa7b6ae38
+::Reflection API::
+Which of these is NOT a class in the Reflection API in Java? {
+~Constructor
+~Field
+~Method
+~Modifier
+=Variable
+}
+
+// GUID: 5f45b326-639c-4d60-a8d0-25403e31d658
+::Accessing private variables::
+The Reflections API in Java does not allow access to private variables {FALSE}
+
+// GUID: df1a7a0d-b9d2-48da-806d-74bb66bc501a
+::Reflection - invoking methods::
+The Reflections API in Java allows for the dynamic invocation of methods {TRUE}
+
+// GUID: bfca1cfc-dbd3-448b-9a56-b3ef275bac71
+::Creating instances with reflection::
+Class.forName("SuperLaser"); Will return an object instance of the class SuperLaser?{FALSE#Class.forName only returns the Class object, not an instance. Class.newInstance(), will return an instance of the Class}
+
+// GUID: bbeeed36-4614-4218-9f15-1876a7d41a81
+::Reflections - drawbacks::
+Some disadvantages of Reflections are that usage involves a performance overhead, security restrictions might prevent usage at runtime, and it may result in unintended side-effects if not used appropriately {TRUE}

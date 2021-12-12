@@ -1,0 +1,1140 @@
+2018-06-01 10:21:39 TRACE root:10 - Hello
+2018-06-01 10:22:18 TRACE Calculator:10 - Hello
+2018-06-01 10:23:03 TRACE Calculator:10 - Hello
+2018-06-01 10:23:03 TRACE Calculator:12 - 9223372036854775807
+2018-06-01 10:23:03 TRACE Calculator:14 - Infinity
+2018-06-01 10:23:03 TRACE Calculator:15 - 3125
+2018-06-01 10:24:15 TRACE Calculator:10 - Hello
+2018-06-01 10:24:15 DEBUG Calculator:47 - 5
+2018-06-01 10:24:15 DEBUG Calculator:49 - 0
+2018-06-01 10:24:15 WARN  Calculator:54 - this is a warning.
+2018-06-01 10:24:15 TRACE Calculator:12 - 9223372036854775807
+2018-06-01 10:24:15 DEBUG Calculator:47 - 5.0
+2018-06-01 10:24:15 DEBUG Calculator:49 - 0.0
+2018-06-01 10:24:15 WARN  Calculator:54 - this is a warning.
+2018-06-01 10:24:15 TRACE Calculator:14 - Infinity
+2018-06-01 10:24:15 TRACE Calculator:15 - 3125
+2018-06-01 10:24:54 DEBUG Calculator:47 - 5
+2018-06-01 10:24:54 DEBUG Calculator:49 - 0
+2018-06-01 10:24:54 WARN  Calculator:54 - this is a warning.
+2018-06-01 10:24:54 DEBUG Calculator:47 - 5.0
+2018-06-01 10:24:54 DEBUG Calculator:49 - 0.0
+2018-06-01 10:24:54 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:40:03 DEBUG Calculator:47 - 5
+2018-06-01 13:40:03 DEBUG Calculator:49 - 0
+2018-06-01 13:40:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:40:03 DEBUG Calculator:47 - 5.0
+2018-06-01 13:40:03 DEBUG Calculator:49 - 0.0
+2018-06-01 13:40:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:40:03 DEBUG Calculator:47 - 5
+2018-06-01 13:40:03 DEBUG Calculator:49 - 0
+2018-06-01 13:40:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:40:03 DEBUG Calculator:47 - 5.0
+2018-06-01 13:40:03 DEBUG Calculator:49 - 0.0
+2018-06-01 13:40:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:40:11 DEBUG Calculator:47 - 5
+2018-06-01 13:40:11 DEBUG Calculator:49 - 0
+2018-06-01 13:40:11 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:40:11 DEBUG Calculator:47 - 5.0
+2018-06-01 13:40:11 DEBUG Calculator:49 - 0.0
+2018-06-01 13:40:11 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:43:45 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:43:45 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:38 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:44:38 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:44:47 TRACE CalculatorTest:17 - 0
+2018-06-01 13:45:33 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:45:33 TRACE CalculatorTest:17 - 0
+2018-06-01 13:47:12 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:50:28 TRACE CalculatorTest:22 - test: div by zero returns max long
+2018-06-01 13:50:28 DEBUG Calculator:47 - 0
+2018-06-01 13:50:28 DEBUG Calculator:49 - 0
+2018-06-01 13:50:28 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:50:28 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:51:02 TRACE CalculatorTest:22 - test: div by zero returns max long
+2018-06-01 13:51:02 DEBUG Calculator:47 - 3
+2018-06-01 13:51:02 DEBUG Calculator:49 - 0
+2018-06-01 13:51:02 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:51:02 TRACE CalculatorTest:24 - 9223372036854775807
+2018-06-01 13:51:02 DEBUG Calculator:47 - 0
+2018-06-01 13:51:02 DEBUG Calculator:49 - 0
+2018-06-01 13:51:02 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:51:02 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:51:46 TRACE CalculatorTest:22 - test: div by zero returns max long
+2018-06-01 13:51:46 TRACE CalculatorTest:24 - Could it be?
+2018-06-01 13:51:46 DEBUG Calculator:47 - 3
+2018-06-01 13:51:46 DEBUG Calculator:49 - 0
+2018-06-01 13:51:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:51:46 TRACE CalculatorTest:25 - 9223372036854775807
+2018-06-01 13:51:46 TRACE CalculatorTest:26 - 9223372036854775807
+2018-06-01 13:51:46 DEBUG Calculator:47 - 0
+2018-06-01 13:51:46 DEBUG Calculator:49 - 0
+2018-06-01 13:51:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:51:46 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:52:01 TRACE CalculatorTest:22 - test: div by zero returns max long
+2018-06-01 13:52:01 TRACE CalculatorTest:24 - Could it be?
+2018-06-01 13:52:01 DEBUG Calculator:47 - 0
+2018-06-01 13:52:01 DEBUG Calculator:49 - 0
+2018-06-01 13:52:01 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:52:01 TRACE CalculatorTest:25 - 0
+2018-06-01 13:52:01 TRACE CalculatorTest:26 - 9223372036854775807
+2018-06-01 13:52:01 DEBUG Calculator:47 - 0
+2018-06-01 13:52:01 DEBUG Calculator:49 - 0
+2018-06-01 13:52:01 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:52:01 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:53:03 TRACE CalculatorTest:22 - test: div by zero returns max long
+2018-06-01 13:53:03 TRACE CalculatorTest:24 - Could it be?
+2018-06-01 13:53:03 DEBUG Calculator:47 - 0
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 TRACE CalculatorTest:25 - 0
+2018-06-01 13:53:03 TRACE CalculatorTest:26 - 9223372036854775807
+2018-06-01 13:53:03 DEBUG Calculator:47 - 1
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 2
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 3
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 4
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 5
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 6
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 7
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 8
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 9
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 10
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 11
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 12
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 13
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 14
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 15
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 16
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 17
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 18
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 19
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 20
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 21
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 22
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 23
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 24
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 25
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 26
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 27
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 28
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 29
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 30
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 31
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 32
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 33
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 34
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 35
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 36
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 37
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 38
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 39
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 40
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 41
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 42
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 43
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 44
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 45
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 46
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 47
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 48
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 49
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 50
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 51
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 52
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 53
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 54
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 55
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 56
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 57
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 58
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 59
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 60
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 61
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 62
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 63
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 64
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 65
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 66
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 67
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 68
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 69
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 70
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 71
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 72
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 73
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 74
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 75
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 76
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 77
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 78
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 79
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 80
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 81
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 82
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 83
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 84
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 85
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 86
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 87
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 88
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 89
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 90
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 91
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 92
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 93
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 94
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 95
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 96
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 97
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 98
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 DEBUG Calculator:47 - 99
+2018-06-01 13:53:03 DEBUG Calculator:49 - 0
+2018-06-01 13:53:03 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:53:03 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:54:46 TRACE CalculatorTest:22 - test: div by zero returns max long
+2018-06-01 13:54:46 DEBUG Calculator:47 - 1
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 2
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 3
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 4
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 5
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 6
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 7
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 8
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 9
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 10
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 11
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 12
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 13
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 14
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 15
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 16
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 17
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 18
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 19
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 20
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 21
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 22
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 23
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 24
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 25
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 26
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 27
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 28
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 29
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 30
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 31
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 32
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 33
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 34
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 35
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 36
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 37
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 38
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 39
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 40
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 41
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 42
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 43
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 44
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 45
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 46
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 47
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 48
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 49
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 50
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 51
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 52
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 53
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 54
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 55
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 56
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 57
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 58
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 59
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 60
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 61
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 62
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 63
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 64
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 65
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 66
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 67
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 68
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 69
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 70
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 71
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 72
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 73
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 74
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 75
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 76
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 77
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 78
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 79
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 80
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 81
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 82
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 83
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 84
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 85
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 86
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 87
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 88
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 89
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 90
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 91
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 92
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 93
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 94
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 95
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 96
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 97
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 98
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 DEBUG Calculator:47 - 99
+2018-06-01 13:54:46 DEBUG Calculator:49 - 0
+2018-06-01 13:54:46 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:54:46 TRACE CalculatorTest:13 - test: mult of zero returns zero
+2018-06-01 13:57:31 TRACE CalculatorTest:15 - test set up
+2018-06-01 13:57:31 TRACE CalculatorTest:30 - test: div by zero returns max long
+2018-06-01 13:57:31 DEBUG Calculator:47 - 1
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 2
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 3
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 4
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 5
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 6
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 7
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 8
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 9
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 10
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 11
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 12
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 13
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 14
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 15
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 16
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 17
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 18
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 19
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 20
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 21
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 22
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 23
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 24
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 25
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 26
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 27
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 28
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 29
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 30
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 31
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 32
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 33
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 34
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 35
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 36
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 37
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 38
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 39
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 40
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 41
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 42
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 43
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 44
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 45
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 46
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 47
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 48
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 49
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 50
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 51
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 52
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 53
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 54
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 55
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 56
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 57
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 58
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 59
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 60
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 61
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 62
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 63
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 64
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 65
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 66
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 67
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 68
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 69
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 70
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 71
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 72
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 73
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 74
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 75
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 76
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 77
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 78
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 79
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 80
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 81
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 82
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 83
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 84
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 85
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 86
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 87
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 88
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 89
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 90
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 91
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 92
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 93
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 94
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 95
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 96
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 97
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 98
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 DEBUG Calculator:47 - 99
+2018-06-01 13:57:31 DEBUG Calculator:49 - 0
+2018-06-01 13:57:31 WARN  Calculator:54 - this is a warning.
+2018-06-01 13:57:31 TRACE CalculatorTest:15 - test set up
+2018-06-01 13:57:31 TRACE CalculatorTest:21 - test: mult of zero returns zero
+2018-06-01 13:58:11 TRACE CalculatorTest:15 - test set up
+2018-06-01 13:58:11 TRACE CalculatorTest:30 - test: div by zero returns max long
+2018-06-01 13:58:11 TRACE CalculatorTest:15 - test set up
+2018-06-01 13:58:11 TRACE CalculatorTest:21 - test: mult of zero returns zero
+2018-06-01 13:59:06 TRACE CalculatorTest:16 - Welcome to jUnit
+2018-06-01 13:59:06 TRACE CalculatorTest:21 - test set up
+2018-06-01 13:59:06 TRACE CalculatorTest:36 - test: div by zero returns max long
+2018-06-01 13:59:06 TRACE CalculatorTest:21 - test set up
+2018-06-01 13:59:06 TRACE CalculatorTest:27 - test: mult of zero returns zero
+2018-06-01 14:03:26 TRACE CalculatorTest:16 - Welcome to JUnit
+2018-06-01 14:03:26 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:03:26 TRACE CalculatorTest:45 - test3
+2018-06-01 14:03:26 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:03:26 TRACE CalculatorTest:36 - test: div by zero returns max long
+2018-06-01 14:03:26 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:03:26 TRACE CalculatorTest:27 - test: mult of zero returns zero
+2018-06-01 14:04:20 TRACE CalculatorTest:16 - Welcome to JUnit
+2018-06-01 14:04:20 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:04:20 TRACE CalculatorTest:45 - test3
+2018-06-01 14:04:20 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:04:20 TRACE CalculatorTest:36 - test: div by zero returns max long
+2018-06-01 14:04:20 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:04:20 TRACE CalculatorTest:27 - test: mult of zero returns zero
+2018-06-01 14:10:48 TRACE CalculatorTest:16 - Welcome to JUnit
+2018-06-01 14:10:48 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:10:48 TRACE CalculatorTest:45 - test3
+2018-06-01 14:10:48 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:10:48 TRACE CalculatorTest:36 - test: div by zero returns max long
+2018-06-01 14:10:48 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:10:48 TRACE CalculatorTest:27 - test: mult of zero returns zero
+2018-06-01 14:10:53 TRACE CalculatorTest:16 - Welcome to JUnit
+2018-06-01 14:10:53 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:10:53 TRACE CalculatorTest:45 - test3
+2018-06-01 14:10:53 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:10:53 TRACE CalculatorTest:36 - test: div by zero returns max long
+2018-06-01 14:10:53 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:10:53 TRACE CalculatorTest:27 - test: mult of zero returns zero
+2018-06-01 14:11:20 TRACE CalculatorTest:16 - Welcome to JUnit
+2018-06-01 14:11:20 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:11:20 TRACE CalculatorTest:45 - test3
+2018-06-01 14:11:20 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:11:20 TRACE CalculatorTest:36 - test: div by zero returns max long
+2018-06-01 14:11:20 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:11:20 TRACE CalculatorTest:27 - test: mult of zero returns zero
+2018-06-01 14:14:10 TRACE CalculatorTest:16 - Welcome to JUnit
+2018-06-01 14:14:10 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:14:10 TRACE CalculatorTest:45 - test3
+2018-06-01 14:14:10 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:14:10 TRACE CalculatorTest:36 - test: div by zero returns max long
+2018-06-01 14:14:10 TRACE CalculatorTest:21 - test set up
+2018-06-01 14:14:10 TRACE CalculatorTest:27 - test: mult of zero returns zero

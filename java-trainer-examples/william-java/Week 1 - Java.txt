@@ -1,0 +1,538 @@
+Why Java?
+	- Java is OOP => not 100% OOP, since Java has primitives
+	- Automatic Memory Management
+	- Platform Independent => "Write once, run anywhere"
+	- Open source
+	- Rich API => no need to reinvent the wheel
+	- Supported by Oracle => Languages like Ruby and Python just don't have the same support 
+	- Simple (no pointers, no operator overloading, etc)
+	
+What do is necessary to write/run a Java program?
+	- Java Virtual Machine (JVM)
+		- Abstract machine that provides the runtime environment in which Java code may be executed
+	- Java Runtime Environment (JRE)
+		- Provides class and runtime libraries (such as java.lang, java.util, java.math, etc), the JVM, and other components necessary to run Java applications
+		- The JVM is actually running the program, but it relies on the class files and supporting files provided by the JRE 
+		- The JRE is a superset of the JVM
+	- Java Development Kit (JDK)
+		- contains the the tools necessary to develop Java programs, such as the compiler and the Java application launcher (which opens the JRE, loads the class, and invokes the main method)
+		- The JDK is a superset of the JRE
+		
+How do I run a Java program from the command line?
+	- $> java MyClass.java	
+		- this command compiles the .java file into a .class file (bytecode)
+	- $> javac MyClass 
+		- executes the class 
+		
+What is the difference in a Class and an Object?
+	- Class can be thought of as a blueprint that defines state (fields, variables) and behavior (methods)
+	- Object is an instance of the class 
+	
+What are the primitive types in Java?
+	- boolean => size not specified
+	- byte => 8-bit
+	- short => 16-bit
+	- char => 16-bit 
+	- int => 32-bit 
+	- long => 64-bit 
+	- float => 32-bit (floating point)
+	- double => 64-bit (floating point)
+	
+Where are Objects stored in memory?
+	- Objects are stored in the heap. Everything else is stored in the stack 
+	
+What does a Java class contain? (Class members)
+	- Constructors
+	- Behavior (Methods)
+	- State (Variables/Fields)
+	- Inner Classes/Interfaces
+	- Blocks 
+	
+What are the scopes of a variable in Java?
+	- Instance/Object 
+	- Class/Static
+	- Method 
+	- Block 
+	
+Is Java Pass-By-Value or Pass-By-Reference?
+	- STRICTLY, Pass-By-Value
+	
+What are the Four Pillars of Object Oriented Programming? (APIE)
+	- Abstraction => programming principle in which we centralize common characteristics and generalize behavior into conceptual classes 
+		- We achieve Abstraction through extending an Abstract Class or implementing an Interface 
+	- Polymorphism => By definition, Polymorphism means "taking on many forms". With respect to Java, Polymorphism is achieved through 
+		- The subclassing of conceptual classes 
+		- Method overloading
+		- Method overriding
+		- Covariance 
+	- Inheritance => The act of subclassing or extending a parent class which in turn gives the child class all of the state and behavior of the parent class 
+		- Inheritance allows for the child class to extend the parent class' functionality
+	- Encapsulation => The process of hiding and preventing changes of a class' data members
+		- Encapsulation is achieved through declaring data members as private, with public accessors and mutators 
+		
+What is the difference in method overloading and method overriding?
+	- Method overloading is when there are two or more methods in a class with the same method name, but different method signatures 
+	- Method overriding is when a method in a child class has the same name as a method in its parent class, however with different implementations 
+	
+What is Covariance?
+	- Convariant return types are an extension of method overriding. A convariant return type occurs when an overridden method in a child class' return type is a subclass of the parent method's return type 
+	
+		class A {
+			Object print() {
+				// Do stuff
+			}
+		}
+
+		class B extends A {
+			@Override
+			String print() {
+				// Do stuff
+			}
+		}
+		
+Does Java support multiple inheritance? Multi-level inheritance?
+	- NO, Java does not support multiple inheritance for classes. However, there is a workaround as a class can implement multiple interfaces 
+	- YES, Java does support multi-level inheritance
+	
+What is the difference between Abstract Classes and Interfaces?
+	- Abstract Class 
+		- Cannot be instantiated
+		- Instance variables do not have to be public, static, final
+		- Can have both abstract and concrete methods 
+		- Does not support multiple inheritance
+	- Interface
+		- Cannot be instantiated 
+		- Variables/Fields are implicitly public, static, final 
+		- Methods/Behavior are implicitly public abstract 
+		- Since Java 8, interfaces can have static and default methods 
+		- Supports multiple inheritance 
+		
+What is a Method?
+	- A method is a named block of code which is called by name and invoked at any point in a program by utilizing a method's name 
+	
+What is a Constructor?
+	- They return an instance of a class, DOES NOT HAVE RETURN TYPE 
+	- Must be named same as class name 
+	- If no constructor is explicitly provided, the JVM provides a No-Argument constructor by default 
+	- Can be overloaded
+	- First line in any constructor is either this() or super()
+	
+What does static mean?
+	- Static implies that the variable or method belongs to the class, not individual instances 
+	
+Can the main method be overloaded?
+	- Yes, but it doesn't quite accomplish anything. "THE" main method is static and void, and accepts an array of Strings as its parameter 
+	- Any other method signature will be treated as a static method called main in the class 
+	
+Can the main method be overridden?
+	- No. Static methods are never overridden, they are hidden 
+		- Method Hiding => replaces the parent method in the calls defined in the child class 
+		
+What is the Order of Initialization in a Java class?
+	1. Static Variables 
+	2. Static Initializers
+	3. Instance Variables 
+	4. Instance Initializers
+	5. Constructors 
+		
+What are the Access Modifiers in Java?
+	- public => accessible anywhere
+	- protected => accessible in this package, and this class' subclasses
+	- package-private => accessible only in this package 
+	- private => accessible only in this class 
+	
+What is the difference between final, finally, and finalize?
+	- final => non-access modifier applied to 
+		- variables => can't be reassigned
+		- methods => can't be overridden
+		- classes => can't be extended 
+	- finally => keyword used at the end of the try/catch block which will always execute, unless a call to System.exit() or a catastrophic system failure
+	- finalize => method in the java.lang.Object class which is called by the garbage collector 
+		- Overridden by your POJO with the intent to provide clean up logic, which will be called whenever the object is destroyed
+		
+What is Garbage Collection?
+	- Process of automatically freeing memory on the heap by deleting objects that are no longer reachable in your program 
+		- System.gc()
+		- Runtime.getRuntime().gc()
+		- System.runFinalize()
+		
+What is the String Pool?
+	- Within the heap, the String Pool is a location where all String values are stored 
+	
+What are Wrapper Classes?
+	- Classes that let you treat primitives as Objects 
+		- autoboxing => primitive to Wrapper 
+		- unboxing => Wrapper to primitive 
+		
+What is an array?
+	- Group of sequentially stored elements of the same type 
+	- Size is fixed
+	- How do we declare arrays in Java?
+	
+What is varargs?
+	- Variable Arguments
+	- Treated as an array under the hood, Java will create an array to fit the arguments which you provide 
+	- MUST be the last parameter
+	- Can omit the vararg value and Java creates an array of size 0
+	
+What is an Error?
+	- An Error is something that went so horribly wrong with your application that you should not attempt to recover from 
+		- ExceptionInInitializerError
+		- OutOfMemoryError
+		- StackOverflowError
+		
+What is an Unchecked Exception?
+	- An Unchecked Exception is something in your application that tends to be unexpected but are not necessarily fatal
+		- aka, RuntimeException
+		- Unchecked Exceptions do not require to be handled or declared 
+		
+What is a Checked Exception?
+	- A Checked Exception is something in your application that tends to be more anticipated and "might be reasonably recovered from"
+		- MUST be handled or declared 
+			- handled => risky code placed inside a try-catch block 
+			- declared => type of exception to be thrown must be declared in the method signature with the throws keyword 
+			
+What is the difference between String, StringBuffer, and StringBuilder?
+	- String is immutable and the slowest of the three
+	- StringBuffer is mutable and thread-safe
+	- StringBuilder is mutable and the fastest of the three
+	
+What is a StringTokenizer?
+	- Object which parses a String and splits it based on a delimiter
+	
+What is the difference between throw, throws, and Throwable?
+	- throw is a keyword which explicitly throws an exception in a method implementations
+	- throws is a keyword which declared an exception that could be thrown in the method signature 
+	- Throwable is the base Object of the Exception hierarchy
+	
+What is the Reflection API?
+	- Reflection allows us to inspect and/or modify runtime attributes of classes, interfaces, fields, and methods 
+	
+What is File I/O?
+	- File I/O refers to the nature of how data is accessed, either by reading it from a resource (input) or writing it to a resource (output)
+	- In Java, File I/O objects fall into one of two categories 
+		- Streams => reading or writing bytes 
+		- Reader/Writer => reading or writing characters 
+		
+	- FileInputStream => reads raw bytes from a file 
+	- FileOutputStream => writes raw bytes to a file 
+	
+	- FileReader => reads characters from a file 
+	- FileWriter => writes characters to a file 
+	
+	- BufferedReader => reads a file line by line, needs an instance of a FileReader with a path to the resource to be read in the BR constructor
+	- BufferedWriter => write to a file line by line, needs an instance of a FileWriter with the path to the destination file in the constructor
+	
+	- ALWAYS CLOSE YOUR RESOURCES
+	
+	- Character files are read line by line, either until a carriage return (\r) or newline (\n)
+	
+What is Serialization?
+	- Serialization is the process of writing state of an object to a byte stream 
+	- In order for an object to be serialized, it must implement the Serializable interface 
+	
+	- To serialize an Object, you need a FileOutputStream instance inside the constructor of an ObjectOutputStream, passing in the file path of where you want the Object to be serialized 
+		- Call the writeObject(yourBean) method 
+		
+	- To deserialize an Object, you need a FileInputStream instance inside the constructor of an ObjectInputStream, passing in the file path of where the serialized object is 
+		- Call the readObject() method, casting it to a bean of your type 
+		
+What is Generics?
+	- Generics enforce compile time safety by allowing you to use parameterized types 
+	- Before Java 5, you had to write something like this, and hope other developers understood to only put Strings inside 
+			List names = new ArrayList();
+	- Since then, you can use the diamond operator and allow the compiler to prevent you from causing this problem 
+			List<String> names = new ArrayList<>();
+			
+	- Naming conventions for Generics 
+		- Technically, Type Parameters can be named anything you want. The convention is to use single, uppercase letters to make it obvious that they are not real class names 
+		
+		- E => Element
+		- K => Map Key
+		- V => Map Value 
+		- N => Number
+		- T => Generic data type 
+		- S, U, V, and so on => for multiple generic data types 
+		
+What is the Collections Framework?
+	- Collections Framework in Java is a set of classes and interfaces that implement commonly used data structures
+	- A collection is a single object which acts as a container for other objects 
+	
+	- List 
+		- ordered => preserves the order in which inserted
+		- duplicate entried allowed
+		- elements accessed by index 
+		
+		- ArrayList
+			- resizable array
+			- traversal is fast (constant time)
+			- insertion/removal is slow (linear time, since there is a risk of having to resize the array)
+			
+		- LinkedList
+			- implements both List and Queue => has all methods in both interfaces 
+			- insertion/removal is fast (no risk to resize)
+			- traversal is slow for an arbitrary index
+			
+		- Vector 
+			- Old school, is a thread-safe implementation of an ArrayList 
+			
+		- Stack 
+			- Old school, should use an ArrayDeque for the Stack data structure
+			
+	- Set 
+		- NOT index driven
+		- Unique elements only
+		- DO NOT preserve the order in which they were inserted 
+		
+		- HashSet
+			- Backed by a HashMap
+			- Guarantees no ordering when iterating
+			- Allows one null value 
+			- Insertion/Traversal are fast 
+			- Tradeoff is that it does not maintain order in which you insert elements 
+			
+		- TreeSet
+			- Backed by a Sorted Tree
+			- Main benefit is that they maintain sorted order 
+			- Tradeoff is that insertion/removal are slow, because they must maintain sorted order 
+			- Cannot include null values, since null cannot be compared to any object
+			
+	- Queue 
+		- Used when elements should be added and removed in a specific order 
+		- Unless specified, elements are ordered FIFO
+		
+		- ArrayDeque (pronounced as "deck")
+			- Pure double-ended queue
+			- Stores elements in a resizable array
+			- Can be implemented as either a Queue or a Stack 
+			- If Queue, we use offer/peek/poll
+			- If Stack, we use push/poll/peel 
+			
+			Operation				Throws Exception 					Returns null 
+			Insert 					boolean add(E e)					boolean offer(E e)
+			Remove 					E remove()							E poll()
+			Examine 				E element()							E peek()
+			
+			void push(E e) is for a Stack (LIFO), which adds element to the front of the queue 
+			
+			
+	- Map 
+		- Used to identify a value by a key, each element in a map is a Key-Value pair 
+		- NOTE: Map does not implement the Collection interface, however is considered to be part of the Collections framework
+		
+		- HashMap 
+			- Stores elements in a key-value pair 
+			- Insert/Retrieve the element by key is fast 
+			- Tradeoff is that it does not maintain the order of insertion 
+			- Permits one null key and null values 
+			
+		- TreeMap 
+			- Keys are stored in a sorted Tree structure 
+			- Main benefit is that keys are always in a sorted order 
+			- Insert/Retrieval are slow 
+			
+		- Hashtable 
+			- Old School
+			- Does what a HashMap does, except is thread-safe
+			- Does not allow null keys or null values 
+			
+What is java.lang.Comparable?
+	- Comparable is an interface which defines a class' natural ordering 
+	- Class must implement Comparable if it is to be sorted by the compareTo() method 
+	
+		public interface Comparable<T> {
+			public int compareTo(T o);
+		}
+		
+	- Returns an int... what does it mean?
+		- Zero if the two objects are equal
+		- Negative if this object is smaller than that 
+		- Positive if this object is greater than that 
+		
+What is java.util.Comparator?
+	- Comparator is an interface which allows you to sort classes by more than one variable 
+	- Class that is to be sorted by compare() method does not have to implement Comparator
+	
+		public interface Comparator<T> {
+			public int compare(T this, T that);
+		}
+		
+What's so special about java.lang.Object?
+	- Every class, directly or indirectly, inherits from Object, which means that all classes inherit these 11 methods 
+		- Object clone()
+		- boolean equals(Object o)
+		- void finalize()
+		- Class<?> getClass()
+		- int hashCode()
+		- void notify()
+		- void notifyAll()
+		- String toString()
+		- void wait()
+		- void wait(long timeout)
+		- void wait(long timeout, int nanos)
+		
+		- toString()
+			- Automatically called if you print an Object 
+			- Usually overridden to provide human-readable output 
+			- Otherwise, you will print fully.qualified.ClassName@memoryAddress
+			
+		- equals(Object o)
+			- What's the difference between == and .equals()?
+			- Unless you explicitly override it, you are only checking if references point to the same object 
+			- The method implementation in java.lang.Object of boolean equals(Object o) is 
+				
+				public boolean equals(Object o) {
+					return (this == o);
+				}
+				
+		- hashCode()
+			- You are expected to override hashCode() if you override equals()
+			- A hash code is a number that puts instances of a class into a finite number of categories 
+				- the result of hashCode should not change in a program 
+				- if .equals() returns true, the hash codes should be equal 
+				- if .equals() returns false, the hash codes do not have to be distinct. Doing so however will help the performance of hash tables 
+				
+What is a process?
+	- independent sequence of execution which has its own address in memory and provides the resources needed to execute a program 	
+		- processes consist of many threads 
+	- When a Java program starts up, one thread begins running immediately. The "main" thread 
+		- is the thread from which other threads spawn
+		- must be the last thread to finish execution. When it stops, your program terminates
+		
+What is a thread?
+	- a subset of a process that is also an independent sequence of execution, but threads of the main process run in the same memory space, managed independently by a scheduler 
+	
+What is Multithreading?
+	- extends the idea of multitasking into applications where you can subdivide operations in a single application into individual, parallel threads 
+	- each thread can have its own task 
+	- OS divides processing time not just with applications, but between threads 
+	
+What is the lifecycle of a Thread?
+	- At any given time, a thread can be in only one of these states
+		1. New: newly created thread that has not yet started executing
+		2. Runnable: either running or ready for execution but waiting for its resource allocation
+		3. Blocked: waiting to acquire a monitor lock to enter or re-enter a synchronized block/method 
+		4. Waiting: waiting for some other thread to perform an action without any time limit
+		5. Timed_Waiting: waiting for some other thread to perform a specific action for a specified time period
+		6. Terminated: has completed its execution 
+		
+What is a Thread Priority?
+	- Priorities signify which order threads are to be run 
+		- MIN_PRIORITY => 1
+		- NORM_PRIORITY => defaults to 5
+		- MAX_PRIORITY => 10
+		
+How do we create a Thread?
+	1. Create a class that implements Runnable 
+		- implement the run() method 
+		- pass an instance of your class to a Thread constructor 
+		- call the start() method 
+		
+	2. Create a class that extends Thread 
+		- override the run() method 
+		- instantiate your class 
+		- call the start() method 
+		
+What is Deadlock?
+	- Deadlock describes a situation where 2 or more threads are blocked trying to access the same resource, waiting for the other 
+	
+What is the purpose of the synchronized keyword?
+	- In a multithreaded environment, a race condition occurs when 2 or more threads attempt to access the same resource 
+	- Using the synchronized keyword on a piece of logic enforces that only one thread can access the resource at any given time 
+				
+What is Test Driven Development? (TDD) 
+	1. Write a unit test 
+	2. Run the test => test will fail 
+	3. Fix the test by writing application code 
+	4. Retest until the test passes 
+	5. Repeat 
+	
+What is jUnit?
+	- jUnit is a Java API for unit level testing 
+	- Assertions => verify that the state of the application meets what is expected 
+	
+What is a Unit Test?
+	- Unit testing is the testing of individual software components, modules and methods 
+	
+What is Maven?
+	- Maven is a dependency manager and build automation tool 
+	
+Where are Maven dependencies stored?
+	- Locally => is the .m2/repository folder (can be changed in $MAVEN_HOME/conf/settings.xml)
+	- Globally => www.mvnrepository.com 
+	- Project => workspace 
+	
+What is a Maven goal?
+	- A goal represents specific tasks which contributes to the building or managing of projects 
+	
+		- clean => delets all compiled code (anything in the /target folder)
+		- compile => compiles code 
+		- package => performs all tests and packages to WAR/JAR
+		- install => installs WAR/JAR to local repository 
+		- deploy => copies final WAR/JAR to remote repository (a server, usually)
+		
+What is the Maven Build Lifecycle?
+	1. Validate => project is correct and all necessary information is available 
+	2. Compile => compiles project source code 
+	3. Test => tests all compiled code 
+	4. Package => packages all compiled code to WAR/JAR file 
+	5. Integration => performs all integration tests on WAR/JAR
+	6. Verify => runs checks on the results of integration tests 
+	7. Install => installs WAR/JAR to local repository 
+	8. Deploy => copies final WAR/JAR to the remote repository 
+	
+What is a POM?
+	- Project Object Model is the fundamental unit of work in Maven. It is an XML file that contains information about the project and configuration details used by Maven to build the project; the configuration includes project dependencies and plugins 
+	
+What is a Design Pattern?
+	- Design patterns are established general solutions to commonly occurring software development problems 
+		- creational
+		- behavioral
+		- structural
+		
+What is a Singleton?
+	- Singleton is a design pattern which creates an object in memory only once in an application and can be shared across multiple classes 
+	- To make a class into a singleton, 
+		1. private static variable of the class' type 
+		2. private constructor 
+		3. public static getInstance() method, which will either instantiate the object or return the instance in memory 
+		
+		public class Singleton {
+			private static Singleton instance; 		// private static variable of the class' type 
+			private Singleton() {} 					// private constructor 
+			
+			public static Singleton getInstance() { // public static getInstance() method 
+				if (instance == null) 
+					instance = new Singleton();
+				return instance;
+			}
+		}
+		
+What is a Factory?
+	- Factory is a design pattern which creates objects in which the precise type may not be known until runtime 
+	- To make a factory, 
+		1. Abstract data type 
+		2. Classes that inherit the abstract data type (the objects whose instantiation details may not be known until runtime)
+		3. Static method that returns a concrete instance, whose return type is the abstract data type in (1.)
+		
+What is log4j?
+	- reliable, fast, and flexible logging framework supported by Apache 
+	
+Why do we need logging?
+	- logging records events that occur during software execution 
+	- As users execute programs on the client side, the system accumulates log entries for the support team 
+	- In general, it allows for developers to access information about application in which we do not have direct access 
+	
+What are the log levels?
+	1. ALL => all levels 
+	2. DEBUG => designates fine-grained informational events that are most useful to debug an application 
+	3. INFO => informational messages that highlight the progress of the application at the coarse grained level 
+	4. WARN => designates porentially harmful situations 
+	5. ERROR => designates error events that might still allow the application to continue running 
+	6. FATAL => sever error events that will presumably lead the application to abort 
+	7. OFF => highest possible level, intended to turn off logging 
+	
+How do logging levels work?
+	- A log request of level X in a logger with level Y is enabled with X >= Y 
+	- For the standard levels, we have that 
+		ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF

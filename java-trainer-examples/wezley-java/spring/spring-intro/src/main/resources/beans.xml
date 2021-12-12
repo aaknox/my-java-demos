@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<!-- Demo 1 - Define our Coach bean -->
+	<bean id="myCoach" class="com.revature.beans.BaseballCoach">
+	
+		<!-- Demo 2 - Inject the dependency (MotivationService) using constructor injection -->
+		<constructor-arg ref="myMotivationService"/>
+	
+	</bean>
+	
+		<!-- Demo 2 - Define the MotivationService bean -->
+	<bean id="myMotivationService" class="com.revature.services.MotivationServiceImpl"></bean>
+	
+	
+	<!-- Demo 2 - Define a new bean for the FootballCoach -->
+	<bean id="myFootballCoach" class="com.revature.beans.FootballCoach">
+	
+		<!-- Demo 2 - Inject the dependency (MotivationService) using setting injection -->
+		<property name="motivationService" ref="myMotivationService"/>
+		
+		<!-- 
+		<!-/- Demo 2 - Inject literal values into the fields of the FootballCoach class -/->
+		<property name="email" value="coach@revature.com"/>
+		<property name="team" value="Java Addicts"/>
+		-->
+		
+		<!-- Demo 2 - Inject literal values using properties file values -->
+		<property name="email" value="${coach.email}"/>
+		<property name="team" value="${coach.team}"/>
+	</bean>
+	
+	<!-- Demo 2 - Load properties file -->
+	<context:property-placeholder location="classpath:app.properties"/>
+
+</beans>

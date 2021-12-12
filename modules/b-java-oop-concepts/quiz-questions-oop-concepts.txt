@@ -1,0 +1,135 @@
+// Multiple choice: 12
+// T/F: 6
+// TOTAL: 18
+
+// GUID: 3f1d47cb-9d67-40e3-92b5-edcbf21ab6a5
+::OOP intro::
+What does object-oriented programming mean? {
+	=Programming constructs are objects which model real-world concepts and can be put into hierarchies, and the relationship between objects are managed
+	~Functions are first-class objects and can be passed as parameters
+	~Variables are statically typed and not allowed to change types once declared
+	~Any piece of software which operates at an enterprise-level scale
+}
+
+// GUID: 6403592d-bce7-4457-ba19-fef1a9862526
+::Classes and objects::
+What is the difference between classes and objects? {
+~Classes are read-only, objects are dynamic
+~Objects are the templates from which classes are instantiated
+=Classes are the templates from which objects are instantiated
+~Classes are dynamic, objects are read-only
+}
+
+// GUID: aee029b3-06bd-4c9d-a451-3a8302a14d3f
+::Polymorphism types::
+What is the difference between static and dynamic polymorphism? {
+~Static polymorphism is determined at run-time (example: method overloading), dynamic polymorphism is determined at compile-time (example: method overriding)
+~Static polymorphism is determined at compile-time (example: method overriding), dynamic polymorphism is determined at run-time (example: method overloading)
+~Static polymorphism is determined at run-time (example: method overriding), dynamic polymorphism is determined at compile-time (example: method overloading)
+=Static polymorphism is determined at compile-time (example: method overloading), dynamic polymorphism is determined at run-time (example: method overriding)
+}
+
+// GUID: 8290bf31-8aca-4a08-a30f-be056207547b
+::POJO vs Bean::
+What is the difference between a POJO and a Bean? {
+=POJO stands for Plain Old Java Object and can be any object; a Bean must be encapsulated, implement Serializable, and override hashCode, equals, and toString
+~A Bean is any object, a POJO must be encapsulated, implement Serializable, and override hashCode, equals, and toString
+~A POJO cannot be used in generic types, but a Bean can
+~A POJO is used for dependency injection, but a bean cannot be passed as a parameter
+}
+
+// GUID: 76be1dc7-890a-499e-ab78-319f24060776
+::OOP Pillars - abstraction::
+What does abstraction mean? {
+=Hiding implementation details through a higher-level construct, like abstract classes and interfaces, thereby decreasing coupling and increasing cohesion
+~Restricting access to data members by using access modifiers and getter/setter methods
+~Receiving state and behavior from other classes, thereby reducing boilerplate and duplicate code and allowing for hierarchies of classes
+~Allowing the implementation of a given behavior to vary, whether between subclasses or within the same class
+}
+
+// GUID: 0c7900ee-9d6b-466b-83d4-886bef7e3084
+::OOP Pillars - inheritance::
+What does inheritance mean? {
+~Hiding implementation details through a higher-level construct, like abstract classes and interfaces, thereby decreasing coupling and increasing cohesion
+~Restricting access to data members by using access modifiers and getter/setter methods
+=Receiving state and behavior from other classes, thereby reducing boilerplate and duplicate code and allowing for hierarchies of classes
+~Allowing the implementation of a given behavior to vary, whether between subclasses or within the same class
+}
+
+// GUID: 5c50c42a-3bfe-4b52-be93-97eb104e79da
+::OOP Pillars - polymorphism::
+What does polymorphism mean? {
+~Hiding implementation details through a higher-level construct, like abstract classes and interfaces, thereby decreasing coupling and increasing cohesion
+~Restricting access to data members by using access modifiers and getter/setter methods
+~Receiving state and behavior from other classes, thereby reducing boilerplate and duplicate code and allowing for hierarchies of classes
+=Allowing the implementation of a given behavior to vary, whether between subclasses or within the same class
+}
+
+// GUID: edc273fe-8220-4929-90bb-034be5aa62a0
+::OOP Pillars - encapsulation::
+What does encapsulation mean? {
+~Hiding implementation details through a higher-level construct, like abstract classes and interfaces, thereby decreasing coupling and increasing cohesion
+=Restricting access to data members by using access modifiers and getter/setter methods
+~Receiving state and behavior from other classes, thereby reducing boilerplate and duplicate code and allowing for hierarchies of classes
+~Allowing the implementation of a given behavior to vary, whether between subclasses or within the same class
+}
+
+// GUID: f4b81f62-9992-4ebf-9da5-631d65d7ac33
+::Overloading Order::
+What is the general order that the compiler will attempt to match parameters to overloaded methods? {
+	=1. -> Exact Match
+	=2. -> Implicit Casting
+	=3. -> Boxing/Unboxing
+	=4. -> Capturing (varargs)
+}
+
+// GUID: 4004044e-8945-4a4f-933f-e111fc2e116a
+::What is the difference between method overloading and overriding?::
+What is the difference between method overloading and overriding?{
+	=Method overloading is the same method name but different parameters. Method overriding is the same name but different implementation.
+	~Method overloading is the same method name but different return type. Method overriding is the same name but different implementation.
+	~Method overloading is the same method name but different parameters. Method overriding is the same name but different parameters.
+	~Method overloading is the same method name but different parameters. Method overriding is a different name but same parameters.
+}
+
+// GUID: 7318ea8d-eaea-4c58-9cbe-715ebf8c1a99
+::Overriding rules::
+Which of the following is NOT true about overriding methods? {
+  ~Any method that is overriden must have the same or wider access modifier than the inherited method
+  ~Final methods cannot be overridden
+  =Abstract classes cannot have overridden methods
+  ~If you override a method, you cannot throw any exceptions from that method
+}
+
+// GUID: cccb4e28-721e-47ad-9de9-0c6728cbed68
+::Encapsulation::
+Why should we encapsulate a class? {
+  ~So that other classes can have direct access to variables
+  =So that we can control the conditions around reading/writing to variables (e.g. perform validation)
+  ~So that we don't duplicate code
+  ~So that methods can have multiple implementations
+}
+
+// GUID: dcf726ca-d022-4a3e-b4c5-047e4106567a
+::Inheritance rules::
+You can inherit from multiple interfaces, but can only extend one class {TRUE}
+
+// GUID: 58a7e2b9-36a4-4f3e-b38f-0a95f3908b06
+::A sub class can access private members of the super class.::
+A sub class can access private members of the super class.{FALSE # private members are inherited, but they remain inaccessible}
+
+// GUID: 0968f153-c94a-4127-80de-52f05dd51c3e
+::Java is 100% OOP::
+Java is 100% OOP{FALSE # because Java has primitives, it is not 100% OOP}
+
+// GUID: 61789e87-aa5d-41f6-8a4e-ba6b859654a9
+::Static methods can be overridden.::
+Static methods can be overridden.{FALSE#They are part of the class scope. Static methods can only be shadowed.}
+
+// GUID: 8c85e563-9c10-4ca8-8b97-c01d0731d652
+::Variable shadowing allows for access to variables values with the same name through inheritance.::
+Variable shadowing allows for access to variables values with the same name through inheritance.{FALSE#Variable shadowing is the hiding of super class variables by sub class variables, and happens at runtime}
+
+// GUID: 40fc9b54-5252-4fcc-a5be-5d4501b32e7c
+::Abstract Classes can have a constructor.::
+Abstract Classes can have a constructor.{TRUE#Even though Abstract Classes can't be instantiated, they still provide a constructor for initialization purposes, and because the first line of every constructor is super(), unless this() is called.}

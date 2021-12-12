@@ -1,0 +1,73 @@
+// Multiple choice: 6
+// T/F: 4
+// TOTAL: 10
+
+// GUID: b35ad5c1-a423-40d2-a659-08c1e42631e1
+::Singleton::
+A Singleton is a design pattern that specifies that only one instance of the class is going to exist during the application's life cycle.{TRUE}
+
+// GUID: 7d1216d7-4aac-49e9-a914-dec3b75dcc1e
+::Multiple instances of a Factory can exist.::
+Multiple instances of a Factory can exist.{TRUE#Unless the Factory is implemented as a Singleton, this is possible.}
+
+// GUID: cfdf5023-d6e4-42fc-834c-cef73e3beb91
+::Categories of design patterns::
+The Singleton and Factory design patterns are creational design patterns {TRUE}
+
+// GUID: 9fd586d7-b2ae-46d1-bfee-eb1ac51d472d
+::Dependency Injection & Testing::
+One downside of dependency injection is that it prevents classes from being easily tested {FALSE #Dependency injection actually makes classes more testable}
+
+// GUID: 6f3b6609-6ca7-4f32-b94b-c34ebbc3e697
+::Design patterns::
+What is a design pattern? {
+~A software program which allows the user to create designs
+=A general, reusable solution to a common problem in software design
+~An object which implements the Singleton interface
+~An object which encapsulates its fields
+}
+
+// GUID: fca8a925-5320-48a8-9de1-5cbc631e8f27
+::Implement a singleton::
+How would you implement the singleton design pattern in Java? {
+=Declare a private constructor and a public static method which returns a static instance of the class (or creates the instance if it does not exist, then returns it)
+~Declare a private static method which returns a public static instance of the class
+~Declare a private field with public getters and setters, implement the Serializable interface, and override the toString, hashCode, and equals methods
+~Declare a static class within the class and declare an instance variable inside the inner class
+}
+
+// GUID: a77e7fac-e87e-42db-baf3-d39cf6de63af
+::Factory::
+What is the factory design pattern? {
+~A pattern which prevents the creation of more than one object throughout the application lifecycle
+~A pattern which hides data in classes via private fields
+=A pattern which provides a layer of abstraction for object creation, allowing retrieval via a factory method and not directly instantiating the object
+~A pattern which allows the creation of multiple objects throughout the application lifecycle
+}
+
+// GUID: f77b6051-7f6f-40fa-a977-01edcce19b66
+::Builder::
+What is the Builder design pattern? {
+~It prevents more than one instance of the class from being created throughout the application's life cycle
+=It is a solution to object creation problems by separating the representation of an object from its construction
+~It provides a layer of abstraction for object creation, allowing retrieval via a factory method and not directly instantiating the object 
+~It prevents illegal access to the fields of an object
+}
+
+// GUID: cc3e0bd2-36a5-4865-ada5-8653d2b8ed1a
+::Dependency injection - definiton::
+Dependency injection is... {
+~A class declaring and instantiating its dependencies
+~A way of ensuring only one instance of a class is ever created during the lifecycle of an application
+=Removing concrete dependencies by passing in the dependencies from the caller when the object is created
+~A way of providing access to data members (fields) within a class
+}
+
+// GUID: 3c88059b-312a-412a-b032-f4e898b634ca
+::Dependency injection - types::
+Which of the following is NOT a type of dependency injection {
+~Setter injection
+~Constructor injection
+=Abstract class injection
+~Interface injection
+}

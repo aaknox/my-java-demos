@@ -1,0 +1,114 @@
+// Multiple choice: 10
+// T/F: 5
+// TOTAL: 15
+
+// GUID: a252daab-ae26-4d8a-aead-d694087a350a
+::Unit testing::
+What is unit testing? {
+~Manually testing your application through the GUI or the command line
+~A way of testing the integration of many different components in an application
+=Testing the smallest, individual components of the application in isolation from the rest of the system
+~Having the end users of the application try it out and report bugs
+}
+
+// GUID: f84e4f52-2c01-4b6c-ad5b-eb7685da92b3
+::TDD::
+What is test-driven development? {
+=The process of writing tests first before writing the application code, then ensuring the tests pass
+~The process of writing tests at the end of development, before the product is put into production
+~The process of having end users test out the application and report bugs
+~The process of automating deployment of the application to a server and then testing it out
+}
+
+// GUID: d75a6f41-4231-4f3d-b53d-b8b3022f5425
+::TDD importance::
+What is the biggest advantage to utilizing test-driven development? {
+~It makes development faster
+=It ensures that application code always meets the required functionality
+~It automates the debugging process
+~It prevents disputes and disagreements among team members on a project
+}
+
+// GUID: e7a0b9d3-d1d1-4916-97b1-8bd2e7d9098b
+::Assertions::Which of the following is NOT true about assertion statements{
+~Assertions use the syntax\: <code>assert([statement])\:[(optional) message]</code>
+=When assertions aren't met, we must catch the AssertionError it throws
+~Assertions must be enabled
+~Assertions are only used in development
+}
+
+// GUID: 54dd2c54-4e94-4199-8314-a61e58c55de7
+::JUnit::
+What is JUnit? {
+=A unit testing framework for Java
+~An integration testing framework for Java
+~A unit test framework for any programming language
+~A testing library which provides a few helper methods
+}
+
+// GUID: b39e789b-e364-4350-89b5-83aca767bc47
+::JUnit annotations::
+Which of these are NOT a JUnit annotation? {
+~@Test
+~@Ignore
+~@Before
+~@BeforeClass
+=@BeforeTest
+}
+
+// GUID: 2a16a887-7c87-4691-8d0f-a78a9562fe98
+::Testing best practices::
+Which of these is NOT a best practice when writing unit tests? {
+~Utilize dependency injection to make testing easier
+=Use as many assert statements as possible within a single test
+~Isolate components from other parts of the system
+~Do negative testing as well as positive testing
+}
+
+// GUID: 015edb66-cc14-4b0d-8579-931972147d58
+::JUnit annotations order::
+What is the order in which JUnit annotations will run? {
+~@Before, @BeforeClass, @Test, @AfterClass, @After
+=@BeforeClass, @Before, @Test, @After, @AfterClass
+~@BeforeClass, @BeforeTest, @Test, @AfterTest, @AfterClass
+~@BeforeTest, @Before, @Test, @After, @AfterTest
+}
+
+// GUID: 83f341f8-41cf-4733-bec4-ba1ed0de2aec
+::JUnit Asserts::
+Which of these is NOT an Assert in JUnit? {
+=AssertSubClass
+~AssertEquals
+~AssertTrue
+~AssertFalse
+~AssertArrayEquals
+}
+
+// GUID: 2a829072-b1e6-4e3d-9a40-388cfffb6846
+::JUnit Exceptions::
+In JUnit, if you want a test to pass if an exception is thrown, what should you do? {
+=Use: @Test(expected \= Exception.class)
+~Catch the exception inside the test and ignore it
+~Add a "throws Exception" declaration to the method signature
+~Nothing - the test will pass if you are using the right Assert statement
+}
+
+// GUID: 2bd03ab8-c028-47ed-8804-5fa97662964b
+::Assertions - best practices::
+You should use many assert statements in a single test {FALSE}
+
+// GUID: eea0cc83-664b-41da-a02c-21cb93a360d3
+::JUnit Static import::
+In order to use the Assert methods in JUnit without specifying the fully qualified class name, you must use a static import {TRUE}
+
+// GUID: 59eff85d-75de-4f97-97e0-f1e2392be5b3
+::Bad test practices::
+A best practice to follow is to comment out tests that are not currently passing {FALSE}
+
+// GUID: 350283b4-1133-4d0a-93ab-1f09bb72fa5f
+::Ignoring tests::
+To tell JUnit to not run a test, use the @Ignore annotation {TRUE}
+
+// GUID: b34c8607-b650-4e52-a853-9ffddb64918d
+::JUnit Assertions - syntax::
+JUnit Assert methods take as parameters an expected value and a test value to check against the expected value {TRUE}

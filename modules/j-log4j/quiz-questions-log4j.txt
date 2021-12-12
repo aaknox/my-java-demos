@@ -1,0 +1,49 @@
+// Multiple choice: 5
+// T/F: 0
+// TOTAL: 5
+
+// GUID: d15e9de2-94cb-4fb3-8995-b3445aa7f192
+::Logging levels::
+Which of the following is NOT a logging level in Log4j? {
+~INFO
+~ERROR
+~FATAL
+~DEBUG
+=PROBLEM
+}
+
+// GUID: 436a4be9-60ec-481e-9cb9-fd08a2651f15
+::Logging::
+Why is it important to use a logger instead of writing to standard output? {
+=You can set logging thresholds, as well as keeping track of application events in a log file
+~There is no advantage to using a logger
+~Loggers can reduce design complexity
+~Loggers are easier to configure
+}
+
+// GUID: 644e952d-2c03-48cb-a084-6cf23eb082de
+::Log4j config file::
+Which file format is NOT supported for log4j configuration? {
+~.properties
+~.xml
+=.txt
+~.yml
+}
+
+// GUID: 7bb30bc6-4ef5-4847-a806-cbc7d8387f52
+::Logging threshold::
+If the log4j logging threshold is set to INFO, which log statement will NOT be printed? {
+~logger.info("testing");
+=logger.debug("testing");
+~logger.error("testing");
+~logger.warn("testing");
+}
+
+// GUID: 0ddc326a-c107-479f-9e3a-40fff32b93fa
+::Logging severity::
+Which of the following is the most severe logging level? {
+=FATAL
+~ERROR
+~WARN
+~DEBUG
+}

@@ -1,0 +1,31 @@
+Standard examples
+Andrew: 
+19
+Wezley: 
+33
+Yuvi: 
+5
+Richard: 
+7
+Peter: 
+12
+Adam: 
+0
+William: 
+11
+
+Trainer examples:
+Andrew: 
+1
+Wezley: 
+0
+Yuvi: 
+0
+Richard: 
+0
+Peter: 
+1
+Adam: 
+0
+William: 
+6

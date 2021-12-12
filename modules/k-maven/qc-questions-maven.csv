@@ -1,0 +1,12 @@
+Difficulty,Question,Answer
+,What is Maven?,A build automation and dependcy management tool for Java applications
+,What is the Maven lifecycle?,"process resources - copy and process the resources into destination directory
+compile - compile the source code
+process-test-resources - same for test directory
+test-compile - compile the test code
+test - run the test code
+package - combine compiled source code into a .jar or .war file
+install - install package to local repo
+deploy - copy package and install in remote repo"
+,Where / when does Maven retrieve dependencies from? Where are they stored locally?,"Maven first looks to see if the dependency is in the local repo under `.m2` directory. If not, it will download the necessary .jar file(s) from the remote central Maven repository into the `.m2` directory"
+,What is the POM and what is the pom.xml?,POM stands for project object model and is the model used by Maven to understand project attributes and dependencies. The pom.xml is the xml document which lists those attributes and dependencies

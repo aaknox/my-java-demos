@@ -1,0 +1,77 @@
+// Multiple choice: 6
+// T/F: 4
+// TOTAL: 10
+
+// GUID: 2e3c1884-c18b-4c91-b973-1f9ab3397803
+::Error - RuntimeException and Exception::
+An Error is more like a RuntimeException than an Exception.{TRUE # Errors can't really be checked for ahead of time, since a program cannot predict problems in its execution environment}
+
+// GUID: c6aec030-1a31-499e-9f42-91bf8cbfaf97
+::A try block must have a catch block.::
+A try block must have a catch block.{FALSE#A try/finally block is legal}
+
+// GUID: d4523719-912e-46e2-abf6-662401b5b23b
+::An unchecked exception must be dealt with a try/catch block.::
+An unchecked exception must be dealt with a try/catch block.{
+	~True # Remember, handling an unchecked Throwable is optional (you aren't ever required to make sure an equation isn't dividing by zero).
+	=False
+}
+
+// GUID: 1bc89ea5-2ab1-4cdb-8fef-62d0264decec
+::RuntimeException::
+RuntimeException and its subclasses are checked exceptions.{FALSE}
+
+// GUID: 309404e6-5ad7-47a9-86ab-b7d25414b509
+::Exception::
+Assuming a method contains code which may raise an <code>Exception</code> (but not a <code>RuntimeException</code>),
+what is the correct way for the method to indicate that it expects the caller to handle that exception?{
+	~<code>throw Exception</code>
+	~<code>new Exception</code>
+	=<code>throws Exception</code>
+	~Don't need to specify anything
+}
+
+// GUID: 4cd04770-a24e-4c56-bf91-401919f65509
+::Catch block rules::
+Which of the following rules are NOT correct about catch blocks? {
+~You can have more than 1 catch block associated with a try block
+~You can catch more than 1 type of exception in a given catch block
+~Catch blocks catching specific exceptions must come BEFORE catch blocks catching more generic exceptions
+=You may not have a try/catch block declared inside of a catch block
+}
+
+// GUID: 1aa198bc-36bb-49aa-bcd5-25b8c0b61b55
+::Checked vs unchecked exceptions::
+What is the difference between checked and unchecked exceptions? {
+~Checked exceptions are thrown during compilation, unchecked exceptions are thrown at runtime
+=Checked exceptions must be handled or declared by the programmer, otherwise compilation will fail; unchecked exceptions need not be handled or declared.
+~Unchecked exceptions are more severe forms of exceptions than checked
+~Unchecked exceptions are custom exceptions created and thrown by the programmer
+}
+
+// GUID: 06812604-df3c-434b-a16c-70dd1120dfbe
+::Custom exception::
+How would you create a custom checked exception? {
+=Create a class which extends Exception
+~Create a class which extends RuntimeException
+~Create a class which implements Serializable
+~Create a class which extends Error
+}
+
+// GUID: 4303965d-e249-4412-8388-9435fa2934b6
+::Classify exceptions::
+Which of the following is a checked exception? {
+~ArrayIndexOutOfBoundsException
+=FileNotFoundException
+~IllegalArgumentException
+~ArithmeticException
+}
+
+// GUID: f93838a7-53d5-4d66-ad1d-7b0a2cbf2fba
+::Errors - definition::
+What is an Error? {
+~A common checked exception that gets thrown when invalid input is specified
+~A common unchecked exception that the programmer can throw at his or her discretion
+~An interface which allows the implementing class to throw an exception
+=A Throwable which represents a serious problem which the application should not try to handle
+}

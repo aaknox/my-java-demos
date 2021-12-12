@@ -1,0 +1,15 @@
+-- Database: CELEBRITY_DB
+
+-- DROP DATABASE "CELEBRITY_DB";
+
+CREATE DATABASE "CELEBRITY_DB"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'en_US.UTF-8'
+    LC_CTYPE = 'en_US.UTF-8'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+    
+-- OWNER SHOULD BE SET TO YOUR POSTGRES USER 
+    

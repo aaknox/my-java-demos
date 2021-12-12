@@ -1,0 +1,41 @@
+JDK vs JRE vs JVM
+pillars of OOP
+Abstract class vs interface
+access modifiers
+Keywords in java
+Can I overload main method
+== vs .equals vs hashcode
+Final finalize finally
+Tell me about exceptions
+runtime vs checked exceptions
+Base class of exceptions
+What is the static keyword
+String pool
+Java collections framework hierarchy
+Hashtable vs Hashmap vs TreeMap
+List vs set
+Types of variable scopes
+primitive vs wrapper
+overriding vs overloading
+String builder vs String vs String buffer
+What is the String pool
+Serializable
+Are the methods serilized? Why not?
+Tell me about the Object class
+Can I overload a main method
+Constructor overload vs override
+return type of a constructor
+synchronized keyword
+Throw vs Throws 
+Reflection API
+how do I do functional programming in Java
+call the constructor from the super class
+What is garbarge collection
+
+
+
+
+
+
+
+

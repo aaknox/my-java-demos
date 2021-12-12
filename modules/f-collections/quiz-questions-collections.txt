@@ -1,0 +1,281 @@
+// Multiple choice: 27
+// T/F: 8
+// TOTAL: 35 
+
+// EASY
+
+// GUID: 4416540f-ace7-4f35-8fc7-bfec09a363aa
+::Natural order interface::
+What interface is used to define the natural ordering? {
+=Comparable
+~Comparator
+~Serializable
+~Runnable
+~Compare
+}
+
+// GUID: f31cbb21-3243-49f1-adce-f2a1f06aa6c4
+::A List extends Collection to handle sets, which must contain unique elements.::
+A List extends Collection to handle sets, which must contain unique elements.{
+	~True
+	=False
+}
+
+// GUID: 3fd68821-83da-4380-bd55-9d8bd55bc25a
+::A ______ comprises a sequence of nodes with each node containing a reference ...::
+A ______ comprises a sequence of nodes with each node containing a reference to its successor and can be used to implement Stacks and Queues.{
+	~ArrayList
+	~HashSet
+	~Heap
+	=LinkedList
+}
+
+// GUID: d9088141-21b1-45f7-a4ca-dd3d13a7b05e
+::A ______ is more efficient for random access and less efficient for ...::
+A ______ is more efficient for random access and less efficient for inserting/removing elements when compared to ______{
+	=ArrayList, LinkedList
+	~LinkedList, ArrayList
+}
+
+// GUID: 54b34d81-2b87-42e0-b090-a7f061dd4e7d
+::A ______ supports the insert and remove operations using a first-in first-out...::
+A ______ supports the insert and remove operations using a first-in first-out (FIFO) order.{
+	~Stack
+	=Queue
+	~Graph
+	~List
+}
+
+// GUID: 370019fb-4bd7-4108-a4e0-ad8ebfa447cd
+::What are Generics?::
+What are Generics?{
+	=Generics enable <em>types</em> (classes and interfaces) to be parameters when defining classes, interfaces and methods.
+	~Generics provide additional capabilities when defining primitive variables.
+	~Generics reduce the amount of compile time checking.
+}
+
+// GUID: db8b48c6-6b21-4684-9aac-9141d2222c30
+::What is the Collections class?::
+What is the Collections class?{
+	~The parent class of List and Set.
+	=A utility class with useful static methods.
+	~The parent class of List, Set, and Map.
+	~A class for creating collection instances.
+}
+
+// GUID: bb4f5b0e-abde-420e-9729-d048c62c0f98
+::A Hashtable extends Set to store key/value pairs.::
+A Hashtable extends Set to store key/value pairs.{FALSE}
+
+// GUID: 76078107-683e-407a-b0a1-61e7ef1a0644
+::Do collections only accept objects?::
+Do collections only accept objects?{TRUE}
+
+// GUID: 30c50249-2cc3-43d0-a5a1-4e4c422ddf2d
+::The Comparator interface declares the method compare.::
+The Comparator interface declares the method compare.{
+TRUE #It does have the compare(o1,o2) method. Comparator is a functional interface, it only has that method and it's used to define an order different than the natural one.
+}
+
+// GUID: 26b9b5a0-0f35-4aa4-aead-920d8bfbe9cc
+::Select the class that is not an Iterable.::
+Select the class that is <strong>not</strong> an Iterable.{
+	~HashSet
+	~LinkedList
+	~ArrayDeque
+	=HashTable
+	~TreeSet
+}
+
+// GUID: 14e27bc3-7d72-41bb-a015-d1b282af12b1
+::Select the incorrect choice regarding LinkedList.::
+Select the incorrect choice regarding LinkedList.{
+	=LinkedList is index driven.
+	~LinkedList is faster at middle of the list retrieval/addition.
+	~LinkedList implements List.
+	~LinkedList implements Deque.
+}
+
+// GUID: 9df524bf-f21b-4764-aaca-7fb1fdf84b39
+::Select the syntactically wrong declaration.::
+Select the syntactically wrong declaration.{
+	~List&lt;Object&gt;
+	~Set&lt;String&gt;
+	=Set&lt;Map.Entry&lt;int,String&gt;&gt;
+	~Map&lt;Integer,String&gt;
+}
+
+// GUID: b07c8c3d-1bf1-46cb-b35c-1d35f3d413da
+::What is the root interface of the Collection API?::
+What is the root interface of the Collection API?{
+	~Collections
+	~List
+	=Collection
+	~Throwable
+}
+
+// GUID: 2c8412dd-e781-475e-9147-6726ee776a64
+::Generics provide compile time safety.::
+Generics provide compile time safety.{TRUE}
+
+// GUID: 10e9d708-5213-4b23-8c3e-51e5cb317fcf
+::Maps and Collection.::
+Map implements the Collection interface.{FALSE#Map does not implement Collection. Is related to Collection because the Keys are a Set (unique), and the values are Collection (any value, unique or not).}
+
+
+
+// MEDIUM
+
+// GUID: c9a5da78-002a-4e29-a168-86088e28338f
+::______ is a List implementation that also implements the Queue and Deque ...::
+______ is a List implementation that also implements the Queue and Deque interfaces.{
+	~Vector
+	~ArrayList
+	=LinkedList
+}
+
+// GUID: d3de451d-5a3c-438c-ac36-13c0f98549ec
+::A _____ is a collection that is based on the last-in-first-out (LIFO) policy.::
+A _____ is a collection that is based on the last-in-first-out (LIFO) policy.{
+	=Stack
+	~Queue
+	~Heap
+	~List
+}
+
+// GUID: 889206a3-4ba1-4f42-8152-943530afb7e7
+::A _____ is comprised of a set of vertices and a set of edges. Each edge ...::
+A _____ is comprised of a set of vertices and a set of edges. Each edge represents a connection between two vertices. Two vertices are neighbors if they are connected by an edge, and the degree of a vertex is its number of neighbors.{
+	~Stack
+	~Queue
+	~Heap
+	=Graph
+}
+
+// GUID: 04957149-1f6e-4170-88fa-771d975a2bb3
+::A ______ is a binary tree that contains a keyvalue pair in each node and for...::
+A ______ is a binary tree that contains a key–value pair in each node and for which the keys are in symmetric order\: The key in a node is larger than the key of every node in its left subtree and smaller than the key of every node in its right subtree.{
+	=Binary search tree
+	~TreeSet
+	~TreeMap
+	~HashMap
+}
+
+// GUID: 98aa5532-293a-425d-be1f-0d0acc26caeb
+::A _______ is a data structure in which we use a hash function to divide the ...::
+A _______ is a data structure in which we use a hash function to divide the keys into m groups, which we expect to be able equal in size. For each group, we keep the keys in an unordered linked list and use sequential search.{
+	=Hashtable
+	~HashSet
+	~Deque
+	~EntrySet
+}
+
+// GUID: 59e2cfc9-8409-411e-a6dd-979b379fa26a
+::HashMap in Java will resolve collisons by checking the hashcode first, then ...::
+HashMap in Java will resolve collisons by checking the hashcode first, then iterating over all elements with that hashcode using the equals method and generating a new entry if none of the elements are equal.{
+	=True
+	~False
+}
+
+// GUID: b7a5abc0-80ff-4939-ae08-52ab78fb8db7
+::The elements of a ____ are ordered according to their natural ordering, or by...::
+The elements of a ____ are ordered according to their natural ordering, or by a Comparator provided at construction time, depending on which constructor is used.{
+	=PriorityQueue
+	~HashSet
+	~Stack
+	~LinkedList
+}
+
+// GUID: fe2f9c9b-5740-409a-8e65-f3f95398a77b
+::What is the difference between a Hashtable and HashMap?::
+What is the difference between a Hashtable and HashMap?{
+	~A HashMap is thread safe.
+	~A HashMap implements Dictionary whereas a HashTable implements Map.
+	=A Hashtable is synchronized and does not accept null keys or values.
+	~A HashMap is synchronized and does not accept null keys or values.
+}
+
+// GUID: 0b0a10e7-388d-4c94-96ef-0f8ece209095
+::Iterator is an abstract class.::
+Iterator is an abstract class.{FALSE}
+
+// GUID: 652c695a-02fe-4302-84b5-57ba7005898c
+::The Map interface defines an iterator() method.::
+The Map interface defines an iterator() method.{FALSE}
+
+
+// HARD
+
+// GUID: 7354df96-b388-4342-8cc8-9d3db7867842
+::______ is a resizable array implementation of Deque that is likely to be ...::
+______ is a resizable array implementation of Deque that is likely to be faster than Stack when used as a stack, and faster than LinkedList when used as a queue.{
+	=ArrayDeque
+	~ConcurrentLinkedDeque
+	~LinkedBlockingDeque
+}
+
+// GUID: db8c9e28-f934-43dc-bf4f-bbe78a4960c4
+::______ is an array-backed collection that acts as a "bounded buffer", in ...::
+______ is an array-backed collection that acts as a "bounded buffer", in which a fixed-sized array holds elements inserted by producer threads and extracted by consumer threads. Attempts to put an element into a full queue will result in the operation blocking; attempts to take an element from an empty queue will similarly block.{
+	~ArrayList
+	~PriorityQueue
+	=ArrayBlockingQueue
+	~LinkedList
+}
+
+// GUID: 88309821-45ca-4e4f-8378-f2a6962f14eb
+::___________, which is implemented as a hash table with a linked list running ...::
+___________, which is implemented as a hash table with a linked list running through it, orders its elements based on the order in which they were inserted into the collection (insertion-order).{
+	=LinkedHashSet
+	~HashTable
+	~ArrayBlockingQueue
+	~LinkedList
+}
+
+// GUID: 395b8bab-9edd-4100-8859-c397c5487139
+::______, which stores its elements in a hash table, is the best-performing Set...::
+______, which stores its elements in a hash table, is the best-performing Set implementation; however it makes no guarantees concerning the order of iteration.{
+	~LinkedHashSet
+	=HashSet
+	~TreeSet
+}
+
+// GUID: 6963728e-2481-474f-85bb-1d7f4cc43940
+::A _____ iterator will immediately throw a ConcurrentModificationException if ...::
+A _____ iterator will immediately throw a ConcurrentModificationException if there is structural modification of a collection after obtaining its Iterator.{
+	=Fail fast
+	~Fail safe
+	~Preemptive
+	~Reactive
+}
+
+// GUID: 7d21646d-97b3-45be-b831-738ddfe60835
+::A _____ iterator will make a copy of the underlying data structure to perform...::
+A _____ iterator will make a copy of the underlying data structure to perform structural modification and does not throw a ConcurrentModificationException.{
+	~Fail fast
+	=Fail safe
+	~Preemptive
+	~Reactive
+}
+
+// GUID: 6837e1a9-551d-4d22-a33f-0087e0f099fa
+::A scalable concurrent map that is sorted according to the natural ordering of...::
+A scalable concurrent map that is sorted according to the natural ordering of its keys, or by a Comparator provided at map creation time, depending on which constructor is used.{
+	=ConcurrentSkipListMap
+	~ConcurrentLinkedDeque
+	~LinkedBlockingDeque
+	~ConcurrentHashMap
+}
+
+// GUID: f4fea7c7-fb5d-490f-8378-bfbb1dc40afe
+::This class obeys the same functional specification as Hashtable, and includes...::
+This class obeys the same functional specification as Hashtable, and includes versions of methods corresponding to each method of Hashtable. However, even though all operations are thread-safe, retrieval operations do not entail locking, and there is not any support for locking the entire table in a way that prevents all access.{
+	~Hashtable
+	~ConcurrentLinkedDeque
+	~LinkedBlockingDeque
+	=ConcurrentHashMap
+}
+
+// GUID: b7180159-7086-4ef6-a1e0-887aba33fbdd
+::A Comparator instance can be sent to one of the ArrayList constructors to sort it.::
+A Comparator instance can be sent to one of the ArrayList constructors to sort it.{FALSE#This can be done with SortedSet instances like TreeSet or using the Collections.sort() method.}

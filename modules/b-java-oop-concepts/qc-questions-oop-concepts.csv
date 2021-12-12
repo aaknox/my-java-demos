@@ -1,0 +1,7 @@
+Difficulty,Question,Answer
+,What is an object / class?,Class is a blueprint for an object
+,What are the 4 pillars of OOP / Explain each?,"Abstraction - Hiding implementation details
+Polymorphism - Subclasses of a class can define their own unique behaviors and yet share some of the same functionality of the parent class. An object can also be referenced by its supertype ""parent"" class, for example `ParentClass obj = new SubClass()`;
+Inheritance - A class that is derived from another class is called a subclass (also a derived class, extended class, or child class). The class from which the subclass is derived is called a superclass (also a base class or a parent class).
+Encapsulation can be described as a protective barrier that prevents the code and data being randomly accessed by other code defined outside the class. Access to the data and code is tightly controlled by an interface."
+,What is the difference between an abstract class and an interface?,"An abstract class can have both concrete and abstract methods whereas an interface must have only abstract methods if any (unless the default keyword is used). Interface methods are implicitly public and abstract, interface variables are implicitly public, static, and final, but these do not apply in abstract classes. Neither can be instantiated"

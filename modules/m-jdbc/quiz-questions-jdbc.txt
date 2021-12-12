@@ -1,0 +1,107 @@
+// Multiple choice: 9
+// T/F: 5
+// 14 Questions
+
+// GUID: 0ba2a3fa-540d-431f-8a91-57d3c5eb9a78
+::Statement::
+<code>Statement</code> is not vulnerable to SQL injection because you can use parameterized inputs and it pre-compiles the SQL {FALSE # PreparedStatement is safe from SQL injection when used properly}
+
+// GUID: 586a39c6-a707-4787-aafd-653f5f6bda17
+::JDBC Drivers::
+JDBC does not require installing the driver for the database you are connecting to {FALSE # A driver is required}
+
+// GUID: ed8ec2d7-179b-4711-ab93-afd536021a46
+::Autocommit::
+Autocommit mode is off by default in JDBC { FALSE # it is on by default}
+
+// GUID: 2473c46e-f3ba-4dfd-9b43-11b3d5ecbac3
+::DriverManager::
+DriverManager.getConnection() is the method to call to create a Connection object {TRUE}
+
+// GUID: dea138ac-5332-4654-b187-859a58d644aa
+::Connection Pooling::
+Connection pooling means having a cache of connections and reusing existing connections rather than creating new connections for each database call {TRUE}
+
+// GUID: 777ebe92-f827-4042-a1d6-ff2fb42f0a60
+::JDBC::
+What does JDBC stand for? {
+=Java Database Connection API
+~Java Data Backup Class
+~JavaScript Database Collaboration
+~Java Database Collections API
+}
+
+// GUID: 115a48c5-31cf-4d3d-9736-b4f1952603e5
+::Executing SQL::
+What is the difference between statement.executeUpdate() and statement.executeQuery()? {
+=executeUpdate() executes an INSERT, UPDATE, or DELETE and returns the number of rows affected in the DB; executeQuery executes a DQL statement and returns a ResultSet
+~executeUpdate() executes a DQL statement and returns a ResultSet; executeQuery executes an INSERT, UPDATE, or DELETE and returns the number of rows affected in the DB
+~executeUpdate() enables autocommit mode; executeQuery disables autocommit mode
+~executeUpdate() is used for all DDL commands; executeQuery is used for all DML commands
+}
+
+// GUID: e90d98ca-e9b4-4d62-9b79-495906a1d635
+::Connecting to a database::
+What data is needed to setup a JDBC connection to a database? {
+=URL, username, password
+~Autocommit mode boolean, username, protocol
+~Protocol, session id, password
+~None of the above
+}
+
+// GUID: 577749aa-7742-47d6-8e0b-b017d7c41329
+::Interfaces of JDBC::
+Which of these is NOT an interface in JDBC? {
+~Connection
+~Statement
+~PreparedStatement
+~CallableStatement
+=ExecutableStatement
+}
+
+// GUID: df3987b6-a774-434a-8c23-880936cb6e31
+::CallableStatement::
+Use <code>CallableStatement</code> to call a {
+=stored procedure
+~function
+~SELECT statement
+~none of the above
+}
+
+// GUID: 9dad7cd1-3050-4010-8a67-6f335fa2c0e6
+::ResultSet iteration::
+A ResultSet object has a cursor initially positioned __ the first row, and the <code>.next()</code>
+method can be used to iterate through the result set and returns __ when there are no more rows {
+~after; false
+~after; true
+=before; false
+~before; true
+}
+
+// GUID: 7e932f26-7b39-49e8-9392-43d6d7aa6aaf
+::Transaction management::
+Which interface is responsible for transaction management? {
+~ResultSet
+=Connection
+~Statement
+~PreparedStatement
+~CallableStatement
+}
+
+// GUID: c1eb75d5-5830-491a-b358-da5282c12de7
+::SQLException::
+If something goes wrong with your database call when using JDBC, which exception will be thrown? {
+~DatabaseException
+~DMLException
+~OracleException
+=SQLException
+}
+
+// GUID: 688f1df9-17d8-4d8c-b829-9d9c1ca59603
+::ResultSet::
+When retrieving data from a ResultSet, what are the two ways you could specify the column to retrieve from? {
+=pass an int for the column index, or a String for the column name
+~pass an Object for the column to match, or a long for the column id
+~ResultSet methods are not overloaded and you don't need to specify which column to get the data from
+~ResultSet methods are not overloaded but you can extend the class and override the methods with your own implementation as needed
+}

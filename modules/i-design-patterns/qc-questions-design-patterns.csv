@@ -1,0 +1,3 @@
+Difficulty,Category,Question,Answer
+,Design patterns,What are Singleton / Factory design patterns?,"Singleton - allows for creation of only 1 object. Method for retrieving object returns reference to the same object in memory. Implement via private constructor
+Factory - abstracts away instantiation logic, usually used in conjunction with singleton pattern"

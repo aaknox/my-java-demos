@@ -1,0 +1,25 @@
+//Solution to exercise one
+
+public class Flute extends Instrument {
+
+  @Override
+  public void makeSound() {
+    System.out.println("la la la");
+  }
+}
+
+//Solution to exercise two
+public class Simulator {
+
+  public static void main(String[] args) {
+    Instrument[] instruments = new Instrument[3];
+
+    instruments[0] = new Trumpet();
+    instruments[1] = new DrumKit();
+    instruments[2] = new Flute();
+
+    for(Instrument i: instruments) {
+      i.makeSound();
+    }
+  }
+}

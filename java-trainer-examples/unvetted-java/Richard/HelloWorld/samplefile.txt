@@ -1,0 +1,11 @@
+Hello, I am a character stream.
+Hello, I am a character stream.
+Hello, I am a character stream.
+Hello, I am a character stream.
+Hello, I am a character stream.
+Hello, I am a character stream.
+Hello, I am a buffered stream.
+
+Hello, I am a buffered stream.
+
+Hello, I am a buffered stream.

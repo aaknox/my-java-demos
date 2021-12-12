@@ -1,0 +1,114 @@
+// Multiple choice: 10
+// T/F: 5
+// TOTAL: 15
+
+// GUID: 2b163521-7228-42f8-8a6c-7ac94c9ba7ae
+::Generics - upper/lower bounding::
+Which of the following is NOT a valid generic declaration? {
+~MyClass<? extends OtherClass> mc;
+~MyClass<? super OtherClass> mc;
+=MyClass<OtherClass extends ?> mc;
+~MyClass<?> mc;
+}
+
+// GUID: 2e0fa9b1-873c-4556-be21-1b30a65d20ba
+::Declaring annotations::
+How would you create your own annotation? {
+=public @interface MyAnnotation {}
+~public interface MyAnnotation {@annotation}
+~public class MyAnnotation implements Annotation {}
+~public enum MyAnnotation { annotation1, annotation2, annotation3}
+}
+
+// GUID: 94d45096-2f83-4104-95e8-c378a4b20102
+::Try-with-resources::
+What is try-with-resources? {
+~A try block which allows resources to be accessed by multiple threads at once
+=A new try block construct (in Java 7) which wraps a resource in parenthesis and automatically closes it, without needing to do so explicitly
+~A try block which will not compile unless resources are explicitly closed in the finally block
+~A try block which always throws an exception
+}
+
+// GUID: f533ee0b-8571-45f8-b182-f0f72ad826a0
+::AutoCloneable::
+In order to use try-with-resources, which interface does the resource need to implement? {
+=AutoCloseable
+~AutoCloneable
+~Cloneable
+~Closeable
+}
+
+// GUID: b16838be-d27e-497a-9757-8051f2d78da7
+::Numeric underscores::
+Which of the following properly declares an int in Java? {
+~int x \= 1,000,000;
+~int x \= 1.000.000;
+=int x \= 1_000_000;
+~int x \= 1000000.0;
+}
+
+// GUID: 9651a3ee-c948-4033-b8e4-bb9300a9f615
+::Optional class::
+What is the Optional class used for in Java 8? {
+~A wrapper class for the new opt primitive
+~It declares that the variable may or may not be used
+~It is an abstract wrapper class for all primitives
+=It holds a value which could be non-null or null, and provides easy ways of handling either case
+}
+
+// GUID: 8a3e46f4-0fe6-4ede-83d8-3100e3230f08
+::Nested Classes::Which of the following is not a type of nested class?{
+~Anonymous
+=Random
+~Static
+~Local
+~Member
+}
+
+// GUID: 68ed22c6-dd52-4029-b61b-885a924522ce
+::Functional interfaces::
+Functional interfaces are... {
+~Interaces with only one abstract method
+~Used with lambda expressions
+~A way of introducing functional programming to Java
+=All of the above
+}
+
+// GUID: 609cdc91-90e2-4425-b55c-08eb47da97dc
+::Stream API - operations::
+In the Java Stream API, intermediate operations are _ and terminal operations are _. {
+~Operations which initiate the execution; operations which end the program
+~Operations which change the state of the data; operations which never change the state of the data
+=Operations which are lazily executed and return another Stream; operations which initiate the execution when invoked
+~Operations which never change the state of the data; operations which always change the state of the data
+}
+
+// GUID: af731975-418e-4bb9-991d-ae12d23e5412
+::Iterable::
+The .forEach() method of the Iterable interface... {
+=allows an operation to be performed for each object in the object
+~throws an exception if the object is empty
+~can only be called on objects which are Collections
+~always returns the object on which it was called
+~all of the above
+}
+
+// GUID: 17a1ea41-7f9f-44b9-bc3f-a3e98d338668
+::Stream API::
+The Stream API in Java 8 defines a series of operations on data which are lazily executed {TRUE}
+
+// GUID: 82a15e68-2f10-4459-8c5f-4f1a6074bc83
+::Functional programming::
+Functional programming is a style of programming in which variables are loosely typed {FALSE # Functional programming has to do with treating functions as first-class objects and avoids changing state and mutable data}
+
+// GUID: 938f7717-3ba1-41fd-866a-220e17216eb4
+::Comparator - Functional interface::
+Comparator is a functional interface {TRUE}
+
+// GUID: 78cdb76e-4ad5-43fe-861a-ee309f6f4014
+::Type inference::
+Generic type inference is a way of preventing casting in Java {FALSE # Type inference is a shorthand way of "inferring" the type when declaring a variable, using the diamond operator <>}
+
+// GUID: 27e7ea20-baf8-4963-a585-cc0109be7e18
+::Functional interfaces can be implemented on the fly using Lambda expressions.::
+Functional interfaces can be implemented on the fly using Lambda expressions.{TRUE # Functional interfaces (interfaces with only one abstract method). Comparator and Runnable are examples of functional interfaces.}

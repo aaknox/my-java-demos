@@ -1,0 +1,105 @@
+// Multiple choice: 10
+// T/F: 5
+// TOTAL: 15 
+
+// GUID: 394e926f-6ef9-4514-8e43-8d5dc3e794d9
+::A Marker interface::
+A Marker interface{
+	~Has both methods and variables
+	~Has only methods
+	~Cannot be implemented
+	=Has no methods
+}
+
+// GUID: b9bf3da2-fc35-49b3-a699-96a624492db3
+::Marker interface::
+Which of the following is an example of a marker interface? {
+=Serializable
+~ResultSet
+~Connection
+~Comparator
+}
+
+// GUID: b2d870be-5ed2-4d26-bcef-d53ff1a0e28f
+::Scanner class 1::
+What is the Scanner class used for? {
+~Serializing objects
+~Communicating over a network via HTTP
+=Parsing input from text into primitives and strings, from a File or InputStream
+~Writing to files
+}
+
+// GUID: abb79acf-d904-438c-aa70-702dd5a9c0f0
+::Scanner class 1::
+The Scanner class constructor takes {
+  =An InputStream
+  ~An OutputStream
+  ~A FileReader
+  ~A FileWriter
+  ~No arguments
+}
+
+// GUID: e0f668e5-8f73-4389-a9e2-72f3298a49cd
+::I/O Best Practices::
+Which of these is a best practice when using Readers or InputStreams? {
+=Always ensure you are closing the resources
+~Never read input in loops
+~Always use an OutputStream along with an InputStream
+~Use the private access modifier to prevent data from being serialized
+}
+
+// GUID: e3394e97-b193-45a8-ab93-fa4008ea3c8d
+::Preventing data serialization::
+Which of these keywords prevents data from being serialized? {
+~volatile
+~private
+~static
+=transient
+}
+
+// GUID: d14710e5-5db2-48b8-a321-fc7aecbf208d
+::Scanner - input from command line::
+Which of these code snippets creates a scanner which can read input from the command line? {
+~Scanner sc \= Scanner.getInstance();
+~Scanner sc \= new Scanner(System);
+=Scanner sc \= new Scanner(System.in);
+~Scanner sc \= new Scanner(System.out);
+}
+
+// GUID: 58ee12b3-155f-4b08-b250-9fa880099469
+::Serializing objects - implementing Serializable::
+In order to serialize an object, the class of that object must do which of the following? {
+=Implement the Serializable interface
+~Implement the Singleton design pattern
+~Have a default no-args constructor
+~Implement the Cloneable interface
+}
+
+// GUID: 01904b8b-499c-43d6-9e20-5c6260663094
+::Serializing objects into bytes::
+What is the class that is used to serialize objects into a byte stream? {
+~FileOutputStream
+~FileWriter
+~ObjectInputStream
+=ObjectOutputStream
+}
+
+// GUID: 80769b4a-88fe-4300-9075-cfd589e0c53d
+::Serialization is used to send objects in character form across a network.::
+Serialization is used to send objects in character form across a network.{FALSE#It sends objects in bytes}
+
+// GUID: 8e4e7795-ccdd-4137-ae80-fb1558bf6fa8
+::FileReader reads only bytes.::
+FileReader reads only bytes.{FALSE}
+
+// GUID: eab486b7-6d07-4a58-8246-fd9d3981ffaa
+::Serializable interface::
+Serializable interface methods must be implemented in its child classes.{FALSE #it has no methods}
+
+// GUID: a6bc09ac-9ba8-43a7-aacd-763b9ff5f5c4
+::BufferedReader::
+BufferedReader is faster than FileReader.{TRUE#BufferedReader is an optimized version of I/O that reads or write bulks of characters. It performs faster than regular Readers or any InputStream.}
+
+// GUID: 98e0fdd0-d527-43f7-9d4a-1cfcdfbbbb21
+::Try-with-resources has been in Java since 1.6::
+Try-with-resources has been in Java since 1.6{FALSE#It was introduced in Java 1.7}

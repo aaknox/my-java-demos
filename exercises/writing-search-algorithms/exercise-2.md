@@ -1,0 +1,5 @@
+# Exercise Two
+
+Create another variation of the `findLetter` method, but this time, make it start in the middle of the dataset and search in both directions from the middle. You can use the `findLetter(..)` and `findLetterBackwards(..)` methods. You may call this method from within `findLetterFromMiddle(..)`.
+
+> **HINT**: When you call `findLetter(..)` and `findLetterBackwards(..)`, you will have to split the data set in half so that one searches the front half and the other searches the back half of the original array. Furthermore, you'll need to check the output from each call and return the correct result. For example, if the value is in the second half, then the first half will return -1. You should return the result of the second half in this case. You also need to handle when the length of the data set is even or odd.

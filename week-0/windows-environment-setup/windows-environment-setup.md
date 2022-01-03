@@ -1,5 +1,4 @@
-# ROC I/Java Environment Setup Guide
----
+# Environment Setup Guide
 
 ## Purpose
 
@@ -30,7 +29,7 @@ There are two provided methods of attaining and configuring all of the necessary
 
 Neither method is more "correct" than the other. You should choose the method of attaining the tools that works best for you. You may even choose to mix both methods, downloading some tools manually and others via a package manager.
 
-**NOTE**: This guide primarily is written for those on a Windows Machine. For Mac users [this guide](https://github.com/sophiagavrila/mac-install-guide) may be more helpful. 
+**NOTE**: This guide primarily is written for those on a Windows Machine. For Mac users [this guide](../mac-environment-setup/mac-environment-setup.md) may be more helpful. 
 
 ## Method 1: Installation Guide Using A Package Manager
 

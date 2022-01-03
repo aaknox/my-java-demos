@@ -1,89 +1,53 @@
-## Team & Repository Information
+# Welcome to my Revature Java Cohort Repository!
+Here you will find all of the notes & resources for training.
 
-**Technology**: Java
+**By end of training, you will have learned**: 
+  - Backend languages: Java, SQL, Hibernate, Spring, Unix/Linux
+  - Frontend languages: HTML/CSS/JS, Angular
+  - DevOps concepts: CI/CD, Docker, Kubernetes, SonarCloud
+  - Misc: Basic problem solving techniques in coding through debugging
 
-**Status**: initial
+## So how do I get started?
+1. **Set up your environment.** Follow the instructions [here](./week-0/windows-environment-setup/windows-environment-setup.md) to get started.
+2. **Clone this repo on your local machine.** I will also show you how to do this on the first day if you cannot do this on your own.
+3. **Sign up for Hackerrank (if you don't already have an account)!** Sign up [here](https://www.hackerrank.com/)!
+4. You are all set!
 
-**SPOC**: Andrew
+## So what's next?
+* You will find all group activities [here](./group-activities/README.md).
+* You will find all project guidelines [here](./project-guidelines/README.md).
+* You will find all Hackerrank assignments [here](./hackerrank-assignments/README.md).
+* You will find all lecture slides here (will be a SharePoint folder) and notes [here](./lecture-notes/README.md).
+* You can find the "How to Do Well In QC" document [here](./study-materials/HowToDoWellInQC.pdf). This will be useful while you study for QCs and quizzes throughout training.
+* You can find all other resources [here](./misc/README.md) (other assignments/training resources, contacts, timesheets, and any other Revature resources).
 
-**Backup SPOC**: Wezley
+## Weekly Schedule:
+* Class starts 10:00am EST M-F, ends at 6:00pm M-Th, 1pm on Friday.
+* If you are going to be late or absent for the day, please email me ASAP.
+* 1 hour lunch break at 1:00pm - 2:00pm EST T-F (12:45pm - 2:00pm lunch on Monday).
+* Mondays will be our 1-on-1 Interview days - you will have a 10-15 minute interview with me.  If you're not interviewing, you'll be working on your projects or studying for QC.
+* Below will be the typical format at which our schedule will look like. Note that this is subject to change depending on my variousu corporate meetings that I have to attend to and any scheduled QCs.
+* Key for table:
+    | Symbol |                Activity               |
+    |:------:|:-------------------------------------:|
+    |    i   |                1-on-1s                |
+    |    g   |           group assignments           |
+    |    q   |                quizzes                |
+    |    L   |                lecture                |
+    |    h   |              hackkerrank              |
+    |    o   | self study time for project work & qc |
+    |    b   |              lunch break              |
+    |    -   |             free time/EOD             |
+    
+----------------------------------
 
-**Current resource totals**
-* QC questions: 69
-* Quiz questions: 121
-* Total examples: 131
-* Standardized examples: 49
-
-**TEAM MEMBERS**:
-+ Wezley
-+ Adam
-+ William
-+ Richard
-+ Suganya
-
-**Environment**:
-+ Java 8
-+ JUnit 4.12
-+ Log4j 1.2
-
-## Prerequisites & Learning Objectives
-The [setup page](./setup.md) has instructions on setting up your local environment for Java development.
-
-Before starting with the material in this repository, associates should be familiar with:
-* General programming concepts - control flow statements, basic data structures and algorithms
-* Basic terminal commands - `cd`, `mv`, `cp`, and `rm`
-
-After completing all the modules in this repository, associates should be able to:
-* Understand Java as a programming language, as well as its similarities to and differences from other languages
-* Write syntactically correct Java code, compile it, and run the program on the command line
-* Understand and apply object-oriented principles and design patterns
-* Know when and how to utilize the Java Collections API effectively
-* Understand the String, StringBuilder, and StringBuffer APIs and how Strings are handled in Java
-* Understand and utilize threads to create multi-threaded programs
-* Read and write data to files
-* Understand and explain garbage collection
-* Utilize the Reflections API to inspect and modify the behavior of objects at runtime
-* Explain the importance of unit testing as well as write effective unit tests with JUnit
-* Explain what Maven is, its benefits, and how to use it
-* Utilize Java 8 features such as functional interfaces, lambda expressions, and the Stream API
-
-## Contributing
-For more information, please refer to the [meta repo](https://gitlab.com/revature_training/training).
-
-## Module Definitions
-
-All modules for Java are listed below in recommended order to cover:
-* [Core Java](./modules/a-java-core/README.md)
-* [OOP Concepts](./modules/b-java-oop-concepts/README.md)
-* [Exceptions](./modules/c-java-exceptions/README.md)
-* [Unit testing (JUnit)](./modules/d-junit/README.md)
-* [IO / Serialization](./modules/e-java-io-serialization/README.md)
-* [Collections and Generics](./modules/f-java-collections/README.md)
-* [Threads](./modules/g-java-threads/README.md)
-* [Reflections API](./modules/h-java-reflections/README.md)
-* [Design patterns](./modules/i-design-patterns/README.md)
-* [Log4j](./modules/j-log4j/README.md)
-* [Maven](./modules/k-maven/README.md)
-* [Advanced](./modules/l-java-advanced/README.md)
-* [JDBC / DAO](./modules/m-jdbc/README.md)
-
-Each module has prerequisites and learning objectives defined in the module README.
-
-## Assignments
-Exercises are located within each module, and overall homework information is below.
-
-* [Java Homework Assignment](./core-java-hw.md)
-* [Project 0 Requirements](./project-0.md)
-
-### GitHub Classroom Homework
-We can use GitHub classroom to assign coding challenges as homework problems.
-Combine with TravisCI for automatic grading of assignments (see links below).
-
-**Java Homework Repo**: [Week 1 HW](https://github.com/revaturelabs/java-core)
-
-### Links
-* Revature Documentation: in Google Drive: [`Revature Technology Department/Process Documents/Training/GitHub Classroom`](https://drive.google.com/drive/u/0/folders/1sgDsz43v7FB2wT12jElOBKAKj_OE9_5x)
-  * Assignment guide for associates
-  * Organization / Classroom setup and TravisCI integration instructions
-* [GitHub classroom](https://classroom.github.com)
-* [TravisCI integration tutorial](https://www.youtube.com/watch?v=qimc_OGD75E)
+|    Day/Time   | Monday | Tuesday | Wednesday | Thursday | Friday |
+|:-------------:|--------|---------|-----------|----------|--------|
+| 10-11AM EST   |    q   |    L    |     L     |     L    |    h   |
+| 11AM-12PM EST |    i   |    L    |     L     |     L    |    g   |
+| 12-1PM EST    |    i   |    L    |     L     |     L    |    g   |
+| 1-2PM EST     |    b   |    b    |     b     |     b    |    -   |
+| 2-3PM EST     |    i   |    L    |     o     |     L    |    -   |
+| 3-4PM EST     |    i   |    L    |     o     |     L    |    -   |
+| 4-5PM EST     |    i   |    L    |     o     |     L    |    -   |
+| 5-6PM EST     |    i   |    L    |     o     |     L    |    -   |

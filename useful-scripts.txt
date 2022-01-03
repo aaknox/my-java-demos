@@ -1,2 +1,0 @@
-# see number of quiz questions for each module
-head -3 ./modules/**/quiz-questions*.txt 

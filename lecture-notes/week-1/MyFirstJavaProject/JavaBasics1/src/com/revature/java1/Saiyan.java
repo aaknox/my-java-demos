@@ -87,15 +87,30 @@ public class Saiyan {
 	}
 	
 	public String defend(int damage) {
-		// DEMO: we will use a control flow statement here to substract our defense when a saiyan defends an opponent's attack.
+		// DEMO: we will use a control flow statement here to subtract our defense when a saiyan defends an opponent's attack.
 		/**
 		 * # Topic: Control Flow Statements
+		 * 
+		 * - The Java compiler executes code from top to bottom.
+		 * - Control flow statements are the order in which instructions, statements and function calls being executed or evaluated 
+		 * when a program is running.
+		 * 
+		 * - Types of control flow statements:
+		 * -- if/else if/else
+		 * -- switch
+		 * -- for
+		 * -- while/do while
+		 * -- enhanced for-each
+		 * 
+		 * - You can also label your control flow statements with a custom name in your code.
+		 * -- You can also skip the execution step using break or resume execution with continue.
 		 * 
 		 * [END OF NOTE]
 		 */
 		// DEMO: first, let's find the difference between the current defense level and the incoming damage.
 		int remainingDefense = this.defenseLevel - damage;
-		if(remainingDefense <= 0) {
+		
+		defenseStatus: if(remainingDefense <= 0) {
 			//DEMO: if remaining is 0 or negative, return 0 defense to that saiyan.
 			this.setDefenseLevel(0);
 			return this.name + " defended the attack! [0 defense remaining.]";

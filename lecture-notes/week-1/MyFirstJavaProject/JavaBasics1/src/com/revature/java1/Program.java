@@ -113,8 +113,8 @@ public class Program {
 		
 		//DEMO: battle # 1
 		//NOTE: Winner goes to Gohan
-		//Battle stadium = new Battle(son, dad);
-		//stadium.battleForTheAges();
+		Battle stadium = new Battle(son, dad);
+		stadium.battleForTheAges();
 		
 		//DEMO: battle # 2
 		//NOTE: Goku wins this fight

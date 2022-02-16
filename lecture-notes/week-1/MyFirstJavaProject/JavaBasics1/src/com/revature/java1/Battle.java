@@ -13,7 +13,11 @@ public class Battle {
 
 	/**
 	 * # Topics: Variable Scopes in Java
-	 * 
+	 * - Scope is referring to where the variable is accessible in your program.
+	 * - 3 Level of scopes in Java:
+	 * -- Class/static scope = only accessible within the class
+	 * -- Method scope = only accessible within the method
+	 * -- Block scope = only accessible within that block of code (ex. int i in a for loop is only usable within that loop)
 	 * [END OF NOTE]
 	 */
 	public void battleForTheAges() {

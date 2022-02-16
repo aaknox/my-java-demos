@@ -3,7 +3,8 @@ package com.revature.java1;
 public class Saiyan {
 	/**
 	 * # Topic: More on Classes
-	 * 
+	 * - Each class can have properties (attributes like name, powerLevel, move, etc) and behaviors (methods like attack, defend).
+	 * - In order to be able to create an instance of our objects from our class or **instantiate** our class, we must use a **constructor**.
 	 * [END OF NOTE]
 	 */
 	
@@ -35,7 +36,10 @@ public class Saiyan {
 
 	/**
 	 * # Topic: Getters & Setters
-	 * 
+	 * - Note that our variables in this class are set to private in order to properly **encapsulate** sensitive data from our users.
+	 * - In order to update our private fields, we must use public get/set methods.
+	 * - Getters will return the variable value.
+	 * - Setters will set or assign the value to the variable.
 	 * [END OF NOTE]
 	 */
 	
@@ -127,7 +131,13 @@ public class Saiyan {
 	
 	/**
 	 * # Topics: The Object Class and its methods
-	 * 
+	 * - Every class in Java is directly or indirectly derived from the Object class.
+	 * - Therefore, the Object class serves as the root of inheritance of all Java classes.
+	 * - There are some methods that are within this class that we can use by overriding them:
+	 * -- toString() = provides a string representation of your object
+	 * -- hashCode() = provides a JVM-generated, unique number that represents the internal address of your object by using internal algorithm
+	 * -- equals(Object obj) = compares the given object (in the parameters) to “this” object (your object that is calling the method)
+	 * -- finalize() = called to flag an object for garbage collection (DOES NOT force GC)
 	 * [END OF NOTE]
 	 */
 

@@ -70,7 +70,9 @@ public class Program {
 	 * [END OF NOTE]
 	 * 
 	 * # Topic: Initializer Blocks
-	 * 
+	 * - Initializer block contains the code that is always executed whenever an instance is created.
+	 * - Mostly used for establishing db connections (will see more of this later when talking about JDBC).
+	 * - For now, just know that this will trigger before the constructor of any class.
 	 * [END OF NOTE]
 	 */
 	

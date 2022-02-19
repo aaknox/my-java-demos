@@ -66,7 +66,24 @@ public class Program {
 	 * 		- void = returns nothing
 	 * - But what do they do?
 	 * - **Access modifiers** are...
+	 * 		- public = visible to all
+	 * 		- private = visible to the class only
+	 * 		- protected = visible to the package and all subclasses
+	 * 			(aka by the subclasses in other package or any class within the package of the protected members' class)
+	 * 		- default (aka no keyword) = visible to the package
 	 * - **Non-access modifiers** are...
+	 * 		- static & void (explained above)
+	 * 		- final = used to apply restrictions to a class, method, or variable
+	 * 			-- final class cannot be inherited
+	 * 			-- final method cannot be overridden
+	 * 			-- final variable cannot be changed in value
+	 * 		- abstract
+	 * 			-- abstract class cannot be instantiated
+	 * 				--- in order to access an abstract class, it must be extended. That subclass also must implement all the parent class' abstract methods
+	 * 				--- in order to use an abstract method, it must be overridden in the child class
+	 * 		- synchronized & volatile (both used for threads - will talk about later)
+	 * 		- transient (used with serializing objects - will talk about later)
+	 * 		- Learn more at: https://www.tutorialspoint.com/java/java_nonaccess_modifiers.htm
 	 * [END OF NOTE]
 	 * 
 	 * # Topic: Initializer Blocks
@@ -112,6 +129,10 @@ public class Program {
 		// DEMO: Now that all that work is done, let's see if it works!
 		Saiyan dad = new Saiyan(Gender.Male, "Goku", 9001, "Spirit Bomb", 10000);
 		Saiyan son = new Saiyan(Gender.Male, "Gohan", 15000, "Ultimate Kamehameha", 3000);
+		
+		//Now we will be using our concrete class that had extended from the abstract class
+		ConcreteClass c = new ConcreteClass();
+		c.myMethod();
 		
 		//DEMO: battle # 1
 		//NOTE: Winner goes to Gohan

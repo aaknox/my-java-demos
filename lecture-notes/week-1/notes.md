@@ -20,3 +20,22 @@
             - ~~Garbage Collection~~
             - ~~OOP Pillars~~
         - ~~Git~~
+### Day 2:
+- TODOS:
+    - Inner notes:
+        - More Java:
+            - ~~Abstract classes~~
+            - Interfaces
+            - String API
+            - StringBuilder, StringBuffer
+            - Arrays, Var-args, for-each loops
+            - Annotations
+            - Casting
+            - Wrapper classes
+            - Object Class
+        - Unit Testing:
+            - TDD
+            - JUnit annoations
+            - Assert method
+    - Slides:
+        - SDLC: Requirements/Design Phase

@@ -18,5 +18,5 @@
             - ~~JVM/JDK/JRE~~
             - ~~Stack vs Heap~~
             - ~~Garbage Collection~~
-            - OOP Pillars
+            - ~~OOP Pillars~~
         - ~~Git~~

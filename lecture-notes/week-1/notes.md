@@ -14,9 +14,9 @@
 
     - make slides for:
         - Intro to Java
-        - OOP Pillars
-        - JVM/JDK/JRE
-        - Stack vs Heap
-        - Garbage Collection
-        - Git
-        - SDLC
+            - ~~SDLC~~
+            - ~~JVM/JDK/JRE~~
+            - ~~Stack vs Heap~~
+            - ~~Garbage Collection~~
+            - OOP Pillars
+        - ~~Git~~

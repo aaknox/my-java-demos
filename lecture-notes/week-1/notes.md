@@ -25,16 +25,16 @@
     - Inner notes:
         - More Java:
             - ~~Abstract classes~~
+            - ~~String API~~
+            - ~~Arrays, Var-args, for-each loops~~
+            - ~~StringBuilder, StringBuffer~~
+            - ~~Object Class~~
             - Interfaces
-            - String API
-            - StringBuilder, StringBuffer
-            - Arrays, Var-args, for-each loops
             - Annotations
             - Casting
             - Wrapper classes
-            - Object Class
         - Unit Testing:
-            - TDD
+            - ~~TDD~~
             - JUnit annoations
             - Assert method
     - Slides:

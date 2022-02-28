@@ -42,19 +42,19 @@
 - TODOS:
     - Inner notes:
         - Exceptions
-            - Declaring exceptions
-                - custom exceptions
-            - Handling exceptions
-                - try/catch condition statement
-                - tryWithResources
-                - multi-catch blocks
+            - ~~Declaring exceptions~~
+                - ~~custom exceptions~~
+            - ~~Handling exceptions~~
+                - ~~try/catch condition statement~~
+                - ~~tryWithResources~~
+                - ~~multi-catch blocks~~
         - Collections API
-            - Lists
-            - Sets
-            - Queues
-            - Maps
-            - HashSet & TreeSet
-            - ArrayList & LinkedList
+            - ~~Lists~~
+            - ~~Sets~~
+            - ~~Queues~~
+            - ~~Maps~~
+            - ~~HashSet & TreeSet~~
+            - ~~ArrayList & LinkedList~~
         - Generics
     - Slides:
         - Fundamentals of exceptions & collections

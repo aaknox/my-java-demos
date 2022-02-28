@@ -29,13 +29,13 @@
             - ~~Arrays, Var-args, for-each loops~~
             - ~~StringBuilder, StringBuffer~~
             - ~~Object Class~~
-            - Interfaces
-            - Annotations
-            - Casting
-            - Wrapper classes
+            - ~~Interfaces~~
+            - ~~Annotations~~
+            - ~~Casting~~
+            - ~~Wrapper classes~~
         - Unit Testing:
             - ~~TDD~~
-            - JUnit annoations
-            - Assert method
+            - ~~JUnit annoations~~
+            - ~~Assert method~~
     - Slides:
-        - SDLC: Requirements/Design Phase
+        - ~~SDLC: Requirements/Design Phase~~

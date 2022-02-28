@@ -1,10 +1,11 @@
 package com.revature.tests;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 
 import com.revature.otherjava.Menu;
 import com.revature.otherjava.MenuImpl;
@@ -23,14 +24,15 @@ import com.revature.otherjava.MenuImpl;
  * 	- Assert = check whether the expectations were met
  *[END OF NOTE] 
  **/
-class ValidationTest {
+public class MenuValidationTest {
 
 	//ARRANGE
 	Menu menu;
 	
 	/**
 	 * Topic: JUnit Annotations
-	 * 
+	 * - JUnit framework has some built-in annotations that are very helpful in setting up and making our tests.
+	 * - Review RevPro for the common list of annotations and study what each do
 	 * [END OF NOTE]
 	 **/
 	@BeforeEach
@@ -46,7 +48,8 @@ class ValidationTest {
 		//ASSERT
 		/**
 		 * Topic: Assert Methods
-		 * 
+		 * - Assertions just makes sure that the application is meeting what is expected. 
+		 * 		- So passing is good; failing means that you will need to refactor your code to pass that test.
 		 * [END OF NOTE]
 		 **/
 		assertEquals(expectedResult, menu.convertToDouble(12));

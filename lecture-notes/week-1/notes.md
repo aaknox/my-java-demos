@@ -2,7 +2,7 @@
 ## Tasks:
 ### Day 1:
 - TODOs:
-    - complete inner notes in first demo:
+    - Inner notes:
         - ~~First Java Program: HelloWorld~~
         - ~~Class vs Object~~
         - ~~Control Flow Statements~~
@@ -11,8 +11,7 @@
         - ~~Methods and Parameters~~
         - ~~Variable Scopes~~
         - ~~Access Modifiers vs Non-access modifiers~~
-
-    - make slides for:
+    - Slides:
         - Intro to Java
             - ~~SDLC~~
             - ~~JVM/JDK/JRE~~
@@ -39,3 +38,39 @@
             - ~~Assert method~~
     - Slides:
         - ~~SDLC: Requirements/Design Phase~~
+### Day 3:
+- TODOS:
+    - Inner notes:
+        - Exceptions
+            - Declaring exceptions
+                - custom exceptions
+            - Handling exceptions
+                - try/catch condition statement
+                - tryWithResources
+                - multi-catch blocks
+        - Collections API
+            - Lists
+            - Sets
+            - Queues
+            - Maps
+            - HashSet & TreeSet
+            - ArrayList & LinkedList
+        - Generics
+    - Slides:
+        - Fundamentals of exceptions & collections
+            - Exceptions
+                - hierarchy
+                - Checked vs unchecked exceptions
+            - Collections
+                - hierarchy
+                - Iterable interface
+                - Iterator interface
+        - SDLC: Implementation/Development & testing phases
+### Day 4:
+- TODOS:
+    - Inner notes:
+    - Slides:
+### Day 5:
+- TODOS:
+    - Inner notes:
+    - Slides:

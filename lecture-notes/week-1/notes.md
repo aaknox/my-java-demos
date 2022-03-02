@@ -55,7 +55,7 @@
             - ~~Maps~~
             - ~~HashSet & TreeSet~~
             - ~~ArrayList & LinkedList~~
-        - Generics
+        - ~~Generics~~
     - Slides:
         - Fundamentals of exceptions & collections
             - Exceptions

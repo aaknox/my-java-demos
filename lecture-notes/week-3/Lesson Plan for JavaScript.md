@@ -1,4 +1,4 @@
-# Lesson Plan for JavaScript
+# JavaScript - Introduction
 ## I. Powerpoint
 - Slides:
     - What is JavaScript

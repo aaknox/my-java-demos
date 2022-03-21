@@ -1,9 +1,6 @@
 # JavaScript - Introduction
 ## I. Powerpoint
-- Slides:
-    - What is JavaScript
-    - HTML vs CSS vs JS
-    - Features of JavaScript
+- Slides [here](./JavaScriptIntro.pdf)
 
 ## II. Demo
 **Outline:**

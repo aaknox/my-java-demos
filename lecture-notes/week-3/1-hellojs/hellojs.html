@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello JS</title>
+</head>
+<body>
+    <h1 class="my-title">Intro into JS</h1>
+    <!-- To include our JS into our HTML pages, we can use the script tag and have src equal to the path to our JS file -->
+    <script src="./hellojs.js"></script>
+
+    <script>
+        //we can also have internal JS code using the script tag as well
+        var title = document.getElementsByClassName("my-title");
+        //Let's see what we got back
+        //console.log(title);
+
+        //Here you can see an error in our JS code
+        //title.style.color = "#FF0000"; //not working because getElementsByClassName returns an array of elements
+        
+        //Now let's fix the error
+        title[0].style.color = "#FF0000"; //works
+    </script>
+</body>
+</html>

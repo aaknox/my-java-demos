@@ -27,6 +27,7 @@
   
         <!-- Annotated entity classes -->
         <mapping class="com.revature.models.User"/>
+        <mapping class="com.revature.models.UserRole"/>
          
     </session-factory>
 </hibernate-configuration>

@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -13,9 +16,13 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.revature.dao.UserDAOImpl;
 import com.revature.models.User;
+import com.revature.models.UserJwtDTO;
+import com.revature.models.UserRole;
+import com.revature.services.JwtService;
 import com.revature.services.UserService;
 import com.revature.services.UserServiceImpl;
 
@@ -25,6 +32,7 @@ import com.revature.services.UserServiceImpl;
  */
 public class RequestHelper {
 	private static UserService userv = new UserServiceImpl(new UserDAOImpl());
+	private static JwtService jwtService = new JwtService();
 	private static Logger log = Logger.getLogger(RequestHelper.class);
 	private static ObjectMapper om = new ObjectMapper();
 
@@ -66,6 +74,10 @@ public class RequestHelper {
 		
 		// return the user found and show the object in the browser
 		if (u != null) {
+			// Utilize JwtService to create a JSON web token with user information inside to send with response
+			String jwt = jwtService.createJwt(u);
+			response.addHeader("X-Auth-Token", "Bearer " + jwt); 
+			
 			// grab the session & add the user to the session
 			HttpSession session = request.getSession();
 			session.setAttribute("user", u);
@@ -197,8 +209,18 @@ public class RequestHelper {
 		String password = values.get(1); // pass
 		String firstname = values.get(2);
 		String lastname = values.get(3);
+		//by default, all users will be automatically registered as employee and not manager
+		//UserRole role = new UserRole(1, "employee");
+		//User u = new User(username, password, firstname, lastname, role);
 		
-		User u = new User(username, password, firstname, lastname);
+		//alternatively if we want to register managers and employees
+		int roleId = Integer.parseInt(values.get(4));
+		String roleName = values.get(5);
+		UserRole role = new UserRole(roleId, roleName);
+		
+		User u = new User(username, password, firstname, lastname, role);
+		
+		
 		int targetId = userv.register(u);
 
 		if (targetId != 0) {
@@ -246,6 +268,9 @@ public class RequestHelper {
 		String password = values.get(2); // pass
 		String firstname = values.get(3);
 		String lastname = values.get(4);
+		int roleId = Integer.parseInt(values.get(5));
+		String roleName = values.get(6);
+		UserRole role = new UserRole(roleId, roleName);
 		
 		User tempUser = new User();
 		tempUser.setId(id);
@@ -253,6 +278,7 @@ public class RequestHelper {
 		tempUser.setPassword(password);
 		tempUser.setFirstName(firstname);
 		tempUser.setLastName(lastname);
+		tempUser.setRole(role);
 		boolean isUpdated = userv.editUser(tempUser);
 
 		if (isUpdated) {
@@ -271,57 +297,101 @@ public class RequestHelper {
 		}
 		log.info("leaving request helper now...");
 	}
+	
+	public static UserJwtDTO authenicateUser(HttpServletRequest request) {
+		//some functionalities should only allow managers (like view all users or deleting users)!
+		//for that reason, you need to check the user's jwt token first
+		log.info("Request data:");
+		Enumeration<String> headerNames = request.getHeaderNames();
+		Map<String, String> map = new HashMap<String, String>();
+		
+		while (headerNames.hasMoreElements()) {
+            String key = (String) headerNames.nextElement();
+            String value = request.getHeader(key);
+            map.put(key, value);
+        }
+		log.info(map);
+		
+		String headerValue = request.getHeader("authorization");
+		String jwt = headerValue.split(" ")[1];
+		
+		UserJwtDTO dto = new UserJwtDTO();
+		
+		try {
+			dto = jwtService.parseJwt(jwt);
+		} catch (JsonProcessingException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return dto;
+	}
 
 	public static void processUserDelete(HttpServletRequest request, HttpServletResponse response) throws IOException {
-		log.info("inside of request helper...processUserUpdate...");
-		BufferedReader reader = request.getReader();
-		StringBuilder s = new StringBuilder();
-
-		// we are just transferring our Reader data to our StringBuilder, line by line
-		String line = reader.readLine();
-		while (line != null) {
-			s.append(line);
-			line = reader.readLine();
-		}
-
-		String body = s.toString(); 
-		String [] sepByAmp = body.split("&"); // separate username=bob&password=pass -> [username=bob, password=pass]
+		//this functionality should only allow managers to delete users!
+		UserJwtDTO dto = authenicateUser(request);
 		
-		List<String> values = new ArrayList<String>();
-		
-		for (String pair : sepByAmp) { // each element in array looks like this
-			values.add(pair.substring(pair.indexOf("=") + 1)); // trim each String element in the array to just value -> [bob, pass]
-		}
-		log.info("User attempted to register with information:\n " + body);
-		// capture the actual username and password values
-		int id = Integer.parseInt(values.get(0)); //id numbers cannot be modifed!
-		String username = values.get(1); // bob
-		String password = values.get(2); // pass
-		String firstname = values.get(3);
-		String lastname = values.get(4);
-		
-		User tempUser = new User();
-		tempUser.setId(id);
-		tempUser.setUsername(username);
-		tempUser.setPassword(password);
-		tempUser.setFirstName(firstname);
-		tempUser.setLastName(lastname);
-		boolean isDeleted = userv.deleteUser(tempUser);
+		if(dto != null && dto.getRole().getRoleName().equals("manager")) {
+			//then allow our normal deletion action here
+			log.info("inside of request helper...processUserDelete...");
+			BufferedReader reader = request.getReader();
+			StringBuilder s = new StringBuilder();
 
-		if (isDeleted) {
-			PrintWriter pw = response.getWriter();
-			log.info("Edit successful! New user info: " + tempUser);
-			String json = om.writeValueAsString(tempUser);
-			pw.println(json);
-			System.out.println("JSON:\n" + json);
+			// we are just transferring our Reader data to our StringBuilder, line by line
+			String line = reader.readLine();
+			while (line != null) {
+				s.append(line);
+				line = reader.readLine();
+			}
+
+			String body = s.toString(); 
+			String [] sepByAmp = body.split("&"); // separate username=bob&password=pass -> [username=bob, password=pass]
 			
+			List<String> values = new ArrayList<String>();
+			
+			for (String pair : sepByAmp) { // each element in array looks like this
+				values.add(pair.substring(pair.indexOf("=") + 1)); // trim each String element in the array to just value -> [bob, pass]
+			}
+			log.info("Manager attempted to delete user with information:\n " + body);
+			// capture the actual username and password values
+			int id = Integer.parseInt(values.get(0)); //id numbers cannot be modifed!
+			String username = values.get(1); // bob
+			String password = values.get(2); // pass
+			String firstname = values.get(3);
+			String lastname = values.get(4);
+			int roleId = Integer.parseInt(values.get(5));
+			String roleName = values.get(6);
+			UserRole role = new UserRole(roleId, roleName);
+			
+			User tempUser = new User();
+			tempUser.setId(id);
+			tempUser.setUsername(username);
+			tempUser.setPassword(password);
+			tempUser.setFirstName(firstname);
+			tempUser.setLastName(lastname);
+			tempUser.setRole(role);
+			boolean isDeleted = userv.deleteUser(tempUser);
+
+			if (isDeleted) {
+				PrintWriter pw = response.getWriter();
+				log.info("Edit successful! New user info: " + tempUser);
+				String json = om.writeValueAsString(tempUser);
+				pw.println(json);
+				System.out.println("JSON:\n" + json);
+				
+				response.setContentType("application/json");
+				response.setStatus(200); // SUCCESSFUL!
+				log.info("User has successfully been edited.");
+			} else {
+				response.setContentType("application/json");
+				response.setStatus(400); // this means that the connection was successful but no user was updated!
+			}
+		}else {
+			log.info("User is unauthorized to perform this operation.");
 			response.setContentType("application/json");
-			response.setStatus(200); // SUCCESSFUL!
-			log.info("User has successfully been edited.");
-		} else {
-			response.setContentType("application/json");
-			response.setStatus(400); // this means that the connection was successful but no user was updated!
+			response.setStatus(401); //unauthorized
 		}
+		
 		log.info("leaving request helper now...");
 	}
 

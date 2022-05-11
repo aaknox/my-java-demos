@@ -23,25 +23,31 @@ public class User {
 	@Column(name="store_user_lastname")
 	private String lastName;
 	
+	@ManyToOne
+	@JoinColumn(name="store_user_role_id", referencedColumnName = "store_userRole_id")
+	private UserRole role;
+	
 	public User() {
 		super();
 	}
 
-	public User(String username, String password, String firstName, String lastName) {
+	public User(String username, String password, String firstName, String lastName, UserRole role) {
 		super();
 		this.username = username;
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.role = role;
 	}
 
-	public User(int id, String username, String password, String firstName, String lastName) {
+	public User(int id, String username, String password, String firstName, String lastName, UserRole role) {
 		super();
 		this.id = id;
 		this.username = username;
 		this.password = password;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.role = role;
 	}
 
 	public int getId() {
@@ -84,6 +90,14 @@ public class User {
 		this.lastName = lastName;
 	}
 
+	public UserRole getRole() {
+		return role;
+	}
+
+	public void setRole(UserRole role) {
+		this.role = role;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -92,6 +106,7 @@ public class User {
 		result = prime * result + id;
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((role == null) ? 0 : role.hashCode());
 		result = prime * result + ((username == null) ? 0 : username.hashCode());
 		return result;
 	}
@@ -122,6 +137,11 @@ public class User {
 				return false;
 		} else if (!password.equals(other.password))
 			return false;
+		if (role == null) {
+			if (other.role != null)
+				return false;
+		} else if (!role.equals(other.role))
+			return false;
 		if (username == null) {
 			if (other.username != null)
 				return false;
@@ -133,6 +153,6 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", username=" + username + ", password=" + password + ", firstName=" + firstName
-				+ ", lastName=" + lastName + "]";
+				+ ", lastName=" + lastName + ", role=" + role + "]";
 	}
 }
